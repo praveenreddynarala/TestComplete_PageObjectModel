@@ -1,0 +1,2006 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="message 76">
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value="A click at point (45, 8) with no key pressed.&#xA;&#xA;Tested object:&#xA;Sys.Browser(&quot;iexplore&quot;).Page(&quot;https://hqqa80vm31/iXConnect/lgx_Engine/lgx_Frame.aspx?&amp;LinkParams=%5BLinkParams%20lgx_ID%3D\'OnlyDetailVBNet\'%20%20DetailID%3D\'App%2FCarrierBlocking\'%20%20%2F%5D&quot;).Frame(&quot;Header&quot;).Table(0).Cell(0, 0).TextNode(&quot;C2_mDestination&quot;)"/>
+			<Prp name="date" type="D" value="42387.5215823611"/>
+			<Prp name="id" type="I" value="76"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="unit id" type="I" value="4"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="line no" type="I" value="15"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="priority" type="I" value="300"/>
+		</Node>
+		<Node name="message 118">
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value="A click at point (38, 13) with no key pressed.&#xA;&#xA;Tested object:&#xA;Sys.Browser(&quot;iexplore&quot;).Page(&quot;https://hqqa80vm31/iXConnect/lgx_Engine/lgx_Frame.aspx?&amp;LinkParams=%5BLinkParams%20lgx_ID%3D\'OnlyDetailVBNet\'%20%20DetailID%3D\'App%2FCarrierBlocking\'%20%20%2F%5D&quot;).Frame(&quot;Detail&quot;).Panel(&quot;mainBody&quot;).Section(0).Panel(&quot;page_content&quot;).Panel(0).Panel(&quot;CarrierBlockingTabStrip&quot;).Panel(&quot;CarrierBlockingTabStrip_1&quot;).Panel(&quot;CarrierBlockingWorkOrdersDiv&quot;).Form(&quot;dvbasicCarrierBlockingSearchForm&quot;).Panel(0).Panel(2).Panel(0).Button(&quot;searchCarrierBlocking&quot;)"/>
+			<Prp name="date" type="D" value="42387.5242361574"/>
+			<Prp name="id" type="I" value="118"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="unit id" type="I" value="4"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="line no" type="I" value="215"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="priority" type="I" value="300"/>
+		</Node>
+		<Node name="message 3">
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Sys.Browser(&quot;iexplore&quot;).BrowserWindow(0)"/>
+			<Prp name="date" type="D" value="42387.5158515625"/>
+			<Prp name="id" type="I" value="3"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="line no" type="I" value="18"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="The 'Certificate Error: Navigation Blocked - Windows Internet Explorer' window was maximized."/>
+			<Prp name="priority" type="I" value="300"/>
+		</Node>
+		<Node name="message 58">
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value="A click at point (65, 6) with no key pressed.&#xA;&#xA;Tested object:&#xA;Sys.Browser(&quot;iexplore&quot;).PagePopup(0).Panel(0).Panel(14).TextNode(0)"/>
+			<Prp name="date" type="D" value="42387.5210435301"/>
+			<Prp name="id" type="I" value="58"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="unit id" type="I" value="4"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="line no" type="I" value="16"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="priority" type="I" value="300"/>
+		</Node>
+		<Node name="message 24">
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value="A click at point (26, 8) with no key pressed.&#xA;&#xA;Tested object:&#xA;Sys.Browser(&quot;iexplore&quot;).Page(&quot;https://hqqa80vm31/iXAdmin/lgx_Engine/lgx_Frame.aspx?lgx_WindowID=Frame&amp;Linkparams=%5bLinkParams+lgx_ID%3d\'Default\'+%2f%5d&quot;).Frame(&quot;Header&quot;).Table(0).Cell(0, 0).TextNode(&quot;mConfigLabel&quot;)"/>
+			<Prp name="date" type="D" value="42387.5173287616"/>
+			<Prp name="id" type="I" value="24"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="unit id" type="I" value="3"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="line no" type="I" value="82"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="priority" type="I" value="300"/>
+		</Node>
+		<Node name="message 2">
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value="URL: https://hqqa80vm31/iXHome&#xA;&#xA;Aliases.browser"/>
+			<Prp name="date" type="D" value="42387.5158510995"/>
+			<Prp name="id" type="I" value="2"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="line no" type="I" value="17"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="Navigating to the https://hqqa80vm31/iXHome page."/>
+			<Prp name="priority" type="I" value="300"/>
+		</Node>
+		<Node name="message 69">
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="date" type="D" value="42387.5215683565"/>
+			<Prp name="id" type="I" value="69"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="unit id" type="I" value="5"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="line no" type="I" value="77"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="The property value &quot;Carrier&quot; equals the baseline value &quot;Carrier&quot;."/>
+			<Prp name="priority" type="I" value="300"/>
+		</Node>
+		<Node name="message 117">
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value="A click at point (112, 12) with no key pressed.&#xA;&#xA;Tested object:&#xA;Sys.Browser(&quot;iexplore&quot;).Page(&quot;https://hqqa80vm31/iXConnect/lgx_Engine/lgx_Frame.aspx?&amp;LinkParams=%5BLinkParams%20lgx_ID%3D\'OnlyDetailVBNet\'%20%20DetailID%3D\'App%2FCarrierBlocking\'%20%20%2F%5D&quot;).Frame(&quot;Detail&quot;).Panel(0).Panel(&quot;workflowStatus_list&quot;).TextNode(&quot;workflowStatus_listbox&quot;)"/>
+			<Prp name="date" type="D" value="42387.5241875116"/>
+			<Prp name="id" type="I" value="117"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="unit id" type="I" value="4"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="line no" type="I" value="212"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="priority" type="I" value="300"/>
+		</Node>
+		<Node name="message 53">
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value="A click at point (45, 8) with no key pressed.&#xA;&#xA;Tested object:&#xA;Sys.Browser(&quot;iexplore&quot;).Page(&quot;https://hqqa80vm31/iXConnect/lgx_Engine/lgx_Frame.aspx?lgx_WindowID=Frame&amp;Linkparams=%5bLinkParams+lgx_ID%3d\'Default\'+%2f%5d&quot;).Frame(&quot;Header&quot;).Table(0).Cell(0, 0).TextNode(&quot;C2_mDestination&quot;)"/>
+			<Prp name="date" type="D" value="42387.5206978704"/>
+			<Prp name="id" type="I" value="53"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="unit id" type="I" value="4"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="line no" type="I" value="15"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="priority" type="I" value="300"/>
+		</Node>
+		<Node name="message 97">
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value="A click at point (22, 12) with no key pressed.&#xA;&#xA;Tested object:&#xA;Sys.Browser(&quot;iexplore&quot;).Page(&quot;https://hqqa80vm31/iXConnect/lgx_Engine/lgx_Frame.aspx?&amp;LinkParams=%5BLinkParams%20lgx_ID%3D\'OnlyDetailVBNet\'%20%20DetailID%3D\'App%2FCarrierBlocking\'%20%20%2F%5D&quot;).Frame(&quot;Detail&quot;).Panel(1).Panel(&quot;NewWorkOrderWindow&quot;).Panel(&quot;newCbWorkOrderDiv&quot;).Form(0).Panel(5).Button(&quot;btnSaveNewWorkOrder&quot;)"/>
+			<Prp name="date" type="D" value="42387.5230203241"/>
+			<Prp name="id" type="I" value="97"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="unit id" type="I" value="4"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="line no" type="I" value="132"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="priority" type="I" value="300"/>
+		</Node>
+		<Node name="message 92">
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value="A click at point (97, 12) with no key pressed.&#xA;&#xA;Tested object:&#xA;Sys.Browser(&quot;iexplore&quot;).Page(&quot;https://hqqa80vm31/iXConnect/lgx_Engine/lgx_Frame.aspx?&amp;LinkParams=%5BLinkParams%20lgx_ID%3D\'OnlyDetailVBNet\'%20%20DetailID%3D\'App%2FCarrierBlocking\'%20%20%2F%5D&quot;).Frame(&quot;Detail&quot;).Panel(2).Panel(&quot;newWorkOrderCarriers_list&quot;).TextNode(&quot;newWorkOrderCarriers_listbox&quot;)"/>
+			<Prp name="date" type="D" value="42387.5225910764"/>
+			<Prp name="id" type="I" value="92"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="unit id" type="I" value="4"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="line no" type="I" value="116"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="priority" type="I" value="300"/>
+		</Node>
+		<Node name="message 13">
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value="'0' was sent as a keyboard input to the following window or control.&#xA;&#xA;Tested object:&#xA;Sys.Browser(&quot;iexplore&quot;).Page(&quot;https://hqqa80vm31/iXAdmin/lgx_Engine/lgx_Frame.aspx?&amp;LinkParams=%5BLinkParams%20lgx_ID%3D\'WideDetail\'%20%20FromDate%3D\'%40Data.DefaultDate.FromDate~\'%20ToDate%3D\'%40Data.DefaultDate.ToDate~\'%20lgx_DetailID%3D\'dtlConfig\'%20FirstTime%3D\'1\'%20ConfigType%3D\'2\'%20%20%2F%5D&quot;).Frame(&quot;Detail&quot;).Panel(0).Table(&quot;MRFConfig&quot;).Cell(15, 4).Textbox(&quot;MRFConfig_cConfigParamValue8_ConfigParamValue&quot;)"/>
+			<Prp name="date" type="D" value="42387.5164008681"/>
+			<Prp name="id" type="I" value="13"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="unit id" type="I" value="3"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="line no" type="I" value="104"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="Keyboard input."/>
+			<Prp name="priority" type="I" value="300"/>
+		</Node>
+		<Node name="message 112">
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value="&lt;html&gt;																	   &lt;head&gt;																	   &lt;style&gt;																	   body, table																	   {font-family : Courier New, Arial; font-size : 10pt; font-weight : normal; padding : 14px 8px 8px 14px; margin : 0 0 0 0; width: 100%; text-align:left}																	   TH																	   {font-weight : normal;}																	   TD																	   { border-bottom: 2px solid #A0B5D0;}																	   SPAN.Gray																	   {color: #6D6D6D; }																	   SPAN.GrayBold																	   {font-weight: bold; color: #6D6D6D; }																	   SPAN.Bold																	   {font-weight: bold;}																	   .BoldLineBottom																	   {border-bottom: 2px solid #A0B5D0}																	   .BoldLineTop																	   {border-top: 2px solid #A0B5D0}																	   .BK {background-color: #DBEFFD}																	   .HB																	   {width:10%; white-space:nowrap;padding: 4px 4px 4px 4px;font-weight : bold;}																	   &lt;/style&gt;																	   &lt;/head&gt;																	   &lt;body&gt;																	   &lt;p&gt;The &quot;wItemList&quot; property of the &quot;Sys.Browser(&quot;iexplore&quot;).Page(&quot;https://hqqa80vm31/iXConnect/lgx_Engine/lgx_Frame.aspx?&amp;LinkParams=%5BLinkParams%20lgx_ID%3D\'OnlyDetailVBNet\'%20%20DetailID%3D\'App%2FCarrierBlocking\'%20%20%2F%5D&quot;).Frame(&quot;Detail&quot;).Panel(1).Panel(&quot;NewWorkOrderWindow&quot;).Panel(&quot;newCbWorkOrderDiv&quot;).Form(0).Panel(4).Panel(&quot;divMultiSelector_destinationMS&quot;).Panel(0).Panel(0).Select(&quot;from_destinationMS&quot;)&quot; object meets the checkpoint's condition.&lt;/p&gt;																	   &lt;table border=0 cellspacing=0 cellpadding=3&gt;																	   &lt;thead class='BK' valign=&quot;top&quot;&gt;																	   &lt;tr&gt;																	   &lt;th class='BoldLineTop HB'&gt;Object name:&lt;/th&gt;																	   &lt;th class='BoldLineTop'&gt;Sys.Browser(&quot;iexplore&quot;).Page(&quot;https://hqqa80vm31/iXConnect/lgx_Engine/lgx_Frame.aspx?&amp;LinkParams=%5BLinkParams%20lgx_ID%3D\'OnlyDetailVBNet\'%20%20DetailID%3D\'App%2FCarrierBlocking\'%20%20%2F%5D&quot;).Frame(&quot;Detail&quot;).Panel(1).Panel(&quot;NewWorkOrderWindow&quot;).Panel(&quot;newCbWorkOrderDiv&quot;).Form(0).Panel(4).Panel(&quot;divMultiSelector_destinationMS&quot;).Panel(0).Panel(0).Select(&quot;from_destinationMS&quot;)&lt;/th&gt;																	   &lt;/tr&gt;																	   &lt;tr&gt;																	   &lt;th class='BoldLineBottom HB'&gt;Property:&lt;/th&gt;																	   &lt;th class='BoldLineBottom'&gt;wItemList&lt;/th&gt;																	   &lt;/tr&gt;																	   &lt;/thead&gt;																	   &lt;tbody valign=&quot;top&quot;&gt;																	   &lt;tr&gt;																	   &lt;td class='BK HB'&gt;Actual value&lt;/td&gt;																	   &lt;td&gt;&quot;&quot;&lt;/td&gt;																	   &lt;/tr&gt;																	   &lt;tr&gt;																	   &lt;td class='BK HB'&gt;Expected value&lt;/td&gt;																	   &lt;td&gt;&quot;Afghanistan - O&quot;&lt;/td&gt;																	   &lt;/tr&gt;																	   &lt;tr&gt;																	   &lt;td class=&quot;BK HB&quot;&gt;&lt;SPAN CLASS='Bold'&gt;Condition&lt;/SPAN&gt;&lt;/td&gt;																	   &lt;td&gt;cmpNotContains&lt;/td&gt;																	   &lt;/tr&gt;																	   &lt;tr&gt;																	   &lt;td class=&quot;BK HB&quot;&gt;&lt;SPAN CLASS='Bold'&gt;Case-sensitive&lt;/SPAN&gt;&lt;/td&gt;																	   &lt;td&gt;true&lt;/td&gt;																	   &lt;/tr&gt;																	   &lt;/tbody&gt;																	   &lt;/table&gt;																	   																	   &lt;/body&gt;																	   &lt;/html&gt;"/>
+			<Prp name="date" type="D" value="42387.5240170255"/>
+			<Prp name="id" type="I" value="112"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="-1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="unit id" type="I" value="5"/>
+			<Prp name="type" type="I" value="7"/>
+			<Prp name="line no" type="I" value="101"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="The property checkpoint passed (the wItemList does not contain the substring &quot;Afghanistan - O&quot;)."/>
+			<Prp name="priority" type="I" value="300"/>
+		</Node>
+		<Node name="message 19">
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value="A click at point (65, 6) with no key pressed.&#xA;&#xA;Tested object:&#xA;Sys.Browser(&quot;iexplore&quot;).PagePopup(0).Panel(0).Panel(14).TextNode(0)"/>
+			<Prp name="date" type="D" value="42387.5168721644"/>
+			<Prp name="id" type="I" value="19"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="unit id" type="I" value="4"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="line no" type="I" value="16"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="priority" type="I" value="300"/>
+		</Node>
+		<Node name="message 55">
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="date" type="D" value="42387.5210024421"/>
+			<Prp name="id" type="I" value="55"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="unit id" type="I" value="5"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="line no" type="I" value="57"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="The property value &quot;Work Orders&quot; equals the baseline value &quot;Work Orders&quot;."/>
+			<Prp name="priority" type="I" value="300"/>
+		</Node>
+		<Node name="message 108">
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value="A click at point (97, 12) with no key pressed.&#xA;&#xA;Tested object:&#xA;Sys.Browser(&quot;iexplore&quot;).Page(&quot;https://hqqa80vm31/iXConnect/lgx_Engine/lgx_Frame.aspx?&amp;LinkParams=%5BLinkParams%20lgx_ID%3D\'OnlyDetailVBNet\'%20%20DetailID%3D\'App%2FCarrierBlocking\'%20%20%2F%5D&quot;).Frame(&quot;Detail&quot;).Panel(2).Panel(&quot;newWorkOrderCarriers_list&quot;).TextNode(&quot;newWorkOrderCarriers_listbox&quot;)"/>
+			<Prp name="date" type="D" value="42387.5237372569"/>
+			<Prp name="id" type="I" value="108"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="unit id" type="I" value="4"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="line no" type="I" value="181"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="priority" type="I" value="300"/>
+		</Node>
+		<Node name="message 107">
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value="'Armenia-PTT' was sent as a keyboard input to the following window or control.&#xA;&#xA;Tested object:&#xA;Sys.Browser(&quot;iexplore&quot;).Page(&quot;https://hqqa80vm31/iXConnect/lgx_Engine/lgx_Frame.aspx?&amp;LinkParams=%5BLinkParams%20lgx_ID%3D\'OnlyDetailVBNet\'%20%20DetailID%3D\'App%2FCarrierBlocking\'%20%20%2F%5D&quot;).Frame(&quot;Detail&quot;).Panel(1).Panel(&quot;NewWorkOrderWindow&quot;).Panel(&quot;newCbWorkOrderDiv&quot;).Form(0).Panel(1).Panel(0).Panel(0).Panel(0).Textbox(&quot;newWorkOrderCarriers&quot;)"/>
+			<Prp name="date" type="D" value="42387.5237032523"/>
+			<Prp name="id" type="I" value="107"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="unit id" type="I" value="4"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="line no" type="I" value="179"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="Keyboard input."/>
+			<Prp name="priority" type="I" value="300"/>
+		</Node>
+		<Node name="message 119">
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="date" type="D" value="42387.5243391667"/>
+			<Prp name="id" type="I" value="119"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="picture" type="S" value="Picture1.png"/>
+			<Prp name="unit id" type="I" value="5"/>
+			<Prp name="type" type="I" value="3"/>
+			<Prp name="line no" type="I" value="107"/>
+			<Prp name="stack beginning" type="I" value="0"/>
+			<Prp name="pictype" type="I" value="2"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="stack end" type="I" value="1"/>
+			<Prp name="message" type="S" value="The property value &quot; &quot; does not equal the baseline value &quot;ARM001Block1/5/2016001&quot;."/>
+			<Prp name="priority" type="I" value="300"/>
+		</Node>
+		<Node name="message 41">
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value="Aliases.browser.Page(&quot;https://hqqa80vm31/iXAdmin/lgx_Engine/lgx_Frame.aspx?&amp;LinkParams=%5BLinkParams%20lgx_ID%3D\'Default\'%20%20lgxListID%3D\'\'%20lgx_ListID%3D\'lstProfile\'%20ActiveStatusID%3D\'1\'%20%20%2F%5D&quot;).Frame(&quot;List&quot;).Panel(0).Panel(&quot;lgx_FilterDiv&quot;).Form(&quot;frmFilter&quot;).Panel(&quot;rStatus&quot;).Select(&quot;rStatus_ActiveStatusID&quot;)"/>
+			<Prp name="date" type="D" value="42387.5184031829"/>
+			<Prp name="id" type="I" value="41"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="unit id" type="I" value="3"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="line no" type="I" value="27"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="The combo box item 'Active' was selected."/>
+			<Prp name="priority" type="I" value="300"/>
+		</Node>
+		<Node name="message 20">
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value="A click at point (44, 13) with no key pressed.&#xA;&#xA;Tested object:&#xA;Sys.Browser(&quot;iexplore&quot;).Page(&quot;https://hqqa80vm31/iXConnect/lgx_Engine/lgx_Frame.aspx?lgx_WindowID=Frame&amp;Linkparams=%5bLinkParams+lgx_ID%3d\'Default\'+%2f%5d&quot;).Alert.Button(&quot;OK&quot;)"/>
+			<Prp name="date" type="D" value="42387.5168882523"/>
+			<Prp name="id" type="I" value="20"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="unit id" type="I" value="4"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="line no" type="I" value="33"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="priority" type="I" value="300"/>
+		</Node>
+		<Node name="message 61">
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="date" type="D" value="42387.5214048148"/>
+			<Prp name="id" type="I" value="61"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="unit id" type="I" value="5"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="line no" type="I" value="66"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="The property value &quot;true&quot; equals the baseline value &quot;true&quot;."/>
+			<Prp name="priority" type="I" value="300"/>
+		</Node>
+		<Node name="message 103">
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value="A click at point (97, 11) with no key pressed.&#xA;&#xA;Tested object:&#xA;Sys.Browser(&quot;iexplore&quot;).Page(&quot;https://hqqa80vm31/iXConnect/lgx_Engine/lgx_Frame.aspx?&amp;LinkParams=%5BLinkParams%20lgx_ID%3D\'OnlyDetailVBNet\'%20%20DetailID%3D\'App%2FCarrierBlocking\'%20%20%2F%5D&quot;).Frame(&quot;Detail&quot;).Panel(3).Panel(&quot;newWorkOrderWorkOrderType_list&quot;).TextNode(&quot;newWorkOrderWorkOrderType_listbox&quot;).TextNode(0)"/>
+			<Prp name="date" type="D" value="42387.5233002431"/>
+			<Prp name="id" type="I" value="103"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="unit id" type="I" value="4"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="line no" type="I" value="162"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="priority" type="I" value="300"/>
+		</Node>
+		<Node name="message 48">
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="date" type="D" value="42387.5204943982"/>
+			<Prp name="id" type="I" value="48"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="unit id" type="I" value="5"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="line no" type="I" value="46"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="The property value &quot;iXConnect - Carrier Destination Blocking&quot; equals the baseline value &quot;iXConnect - Carrier Destination Blocking&quot;."/>
+			<Prp name="priority" type="I" value="300"/>
+		</Node>
+		<Node name="message 38">
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value="A click at point (54, 10) with no key pressed.&#xA;&#xA;Tested object:&#xA;Sys.Browser(&quot;iexplore&quot;).Page(&quot;https://hqqa80vm31/iXHome/lgx_Engine/lgx_Frame.aspx?lgx_WindowID=Frame&amp;Linkparams=%5bLinkParams+lgx_ID%3d\'Default\'+%2f%5d&quot;).Frame(&quot;Modules&quot;).Panel(&quot;rAdmin&quot;).Image(&quot;rAdmin_iXAdmin&quot;)"/>
+			<Prp name="date" type="D" value="42387.5182942708"/>
+			<Prp name="id" type="I" value="38"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="unit id" type="I" value="2"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="line no" type="I" value="21"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="priority" type="I" value="300"/>
+		</Node>
+		<Node name="message 89">
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value="A click at point (65, 6) with no key pressed.&#xA;&#xA;Tested object:&#xA;Sys.Browser(&quot;iexplore&quot;).PagePopup(0).Panel(0).Panel(14).TextNode(0)"/>
+			<Prp name="date" type="D" value="42387.5223733681"/>
+			<Prp name="id" type="I" value="89"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="unit id" type="I" value="4"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="line no" type="I" value="16"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="priority" type="I" value="300"/>
+		</Node>
+		<Node name="message 71">
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="date" type="D" value="42387.5215684722"/>
+			<Prp name="id" type="I" value="71"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="unit id" type="I" value="5"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="line no" type="I" value="79"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="The property value &quot;Work Order&quot; equals the baseline value &quot;Work Order&quot;."/>
+			<Prp name="priority" type="I" value="300"/>
+		</Node>
+		<Node name="message 7">
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value="A click at point (54, 10) with no key pressed.&#xA;&#xA;Tested object:&#xA;Sys.Browser(&quot;iexplore&quot;).Page(&quot;https://hqqa80vm31/iXHome/lgx_Engine/lgx_Frame.aspx?lgx_WindowID=Frame&amp;Linkparams=%5bLinkParams+lgx_ID%3d\'Default\'+%2f%5d&quot;).Frame(&quot;Modules&quot;).Panel(&quot;rAdmin&quot;).Image(&quot;rAdmin_iXAdmin&quot;)"/>
+			<Prp name="date" type="D" value="42387.5160479745"/>
+			<Prp name="id" type="I" value="7"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="unit id" type="I" value="2"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="line no" type="I" value="21"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="priority" type="I" value="300"/>
+		</Node>
+		<Node name="message 83">
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value="Click at the point (241, 87) with no key pressed.&#xA;&#xA;Aliases.browser.Page(&quot;https://hqqa80vm31/iXConnect/lgx_Engine/lgx_Frame.aspx?&amp;LinkParams=%5BLinkParams%20lgx_ID%3D\'OnlyDetailVBNet\'%20%20DetailID%3D\'App%2FCarrierBlocking\'%20%20%2F%5D&quot;).Frame(&quot;Detail&quot;).Panel(1).Panel(&quot;NewWorkOrderWindow&quot;).Panel(&quot;newCbWorkOrderDiv&quot;).Form(0).Panel(4).Panel(&quot;divMultiSelector_destinationMS&quot;).Panel(0).Panel(0).Select(&quot;from_destinationMS&quot;)"/>
+			<Prp name="date" type="D" value="42387.5221558218"/>
+			<Prp name="id" type="I" value="83"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="unit id" type="I" value="4"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="line no" type="I" value="127"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="The list box item 5 was clicked with the left mouse button."/>
+			<Prp name="priority" type="I" value="300"/>
+		</Node>
+		<Node name="message 79">
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value="'Armenia-PTT' was sent as a keyboard input to the following window or control.&#xA;&#xA;Tested object:&#xA;Sys.Browser(&quot;iexplore&quot;).Page(&quot;https://hqqa80vm31/iXConnect/lgx_Engine/lgx_Frame.aspx?&amp;LinkParams=%5BLinkParams%20lgx_ID%3D\'OnlyDetailVBNet\'%20%20DetailID%3D\'App%2FCarrierBlocking\'%20%20%2F%5D&quot;).Frame(&quot;Detail&quot;).Panel(1).Panel(&quot;NewWorkOrderWindow&quot;).Panel(&quot;newCbWorkOrderDiv&quot;).Form(0).Panel(1).Panel(0).Panel(0).Panel(0).Textbox(&quot;newWorkOrderCarriers&quot;)"/>
+			<Prp name="date" type="D" value="42387.5217414699"/>
+			<Prp name="id" type="I" value="79"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="unit id" type="I" value="4"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="line no" type="I" value="114"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="Keyboard input."/>
+			<Prp name="priority" type="I" value="300"/>
+		</Node>
+		<Node name="message 4">
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value="A click at point (144, 9) with no key pressed.&#xA;&#xA;Tested object:&#xA;Sys.Browser(&quot;iexplore&quot;).Page(&quot;https://hqqa80vm31/iXHome&quot;).Table(0).Cell(6, 1).Link(&quot;overridelink&quot;)"/>
+			<Prp name="date" type="D" value="42387.5158629051"/>
+			<Prp name="id" type="I" value="4"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="line no" type="I" value="18"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="priority" type="I" value="300"/>
+		</Node>
+		<Node name="message 40">
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value="A click at point (15, 6) with no key pressed.&#xA;&#xA;Tested object:&#xA;Sys.Browser(&quot;iexplore&quot;).PagePopup(0).Panel(0).Panel(5).TextNode(0)"/>
+			<Prp name="date" type="D" value="42387.5183472801"/>
+			<Prp name="id" type="I" value="40"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="unit id" type="I" value="3"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="line no" type="I" value="20"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="priority" type="I" value="300"/>
+		</Node>
+		<Node name="message 32">
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value="A click at point (25, 8) with no key pressed.&#xA;&#xA;Tested object:&#xA;Sys.Browser(&quot;iexplore&quot;).Page(&quot;https://hqqa80vm31/iXAdmin/lgx_Engine/lgx_Frame.aspx?&amp;LinkParams=%5BLinkParams%20lgx_ID%3D\'WideDetail\'%20%20FromDate%3D\'%40Data.DefaultDate.FromDate~\'%20ToDate%3D\'%40Data.DefaultDate.ToDate~\'%20lgx_DetailID%3D\'dtlConfig\'%20FirstTime%3D\'1\'%20ConfigType%3D\'2\'%20%20%2F%5D&quot;).Frame(&quot;Header&quot;).Table(0).Cell(0, 0).TextNode(&quot;mHomeLabel&quot;)"/>
+			<Prp name="date" type="D" value="42387.5177829282"/>
+			<Prp name="id" type="I" value="32"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="unit id" type="I" value="3"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="line no" type="I" value="117"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="priority" type="I" value="300"/>
+		</Node>
+		<Node name="message 31">
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value="A click at point (44, 13) with no key pressed.&#xA;&#xA;Tested object:&#xA;Sys.Browser(&quot;iexplore&quot;).Page(&quot;https://hqqa80vm31/iXAdmin/lgx_Engine/lgx_Frame.aspx?&amp;LinkParams=%5BLinkParams%20lgx_ID%3D\'WideDetail\'%20%20FromDate%3D\'%40Data.DefaultDate.FromDate~\'%20ToDate%3D\'%40Data.DefaultDate.ToDate~\'%20lgx_DetailID%3D\'dtlConfig\'%20FirstTime%3D\'1\'%20ConfigType%3D\'2\'%20%20%2F%5D&quot;).Alert.Button(&quot;OK&quot;)"/>
+			<Prp name="date" type="D" value="42387.5177629051"/>
+			<Prp name="id" type="I" value="31"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="unit id" type="I" value="3"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="line no" type="I" value="107"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="priority" type="I" value="300"/>
+		</Node>
+		<Node name="units">
+			<Prp name="unit 4" type="S" value="{5B61CCA1-9DC5-4D56-8EAE-7CB4AB1FBB9B}"/>
+			<Prp name="unit 7" type="S" value="{569C06DB-608D-4C85-998E-2CCE35C8A52A}"/>
+			<Prp name="unit 2" type="S" value="{09EC1607-CCE5-4F62-A10D-3C626B596D97}"/>
+			<Prp name="unit 5" type="S" value="{3CEF3994-C5F2-434C-AA7D-08B69CF94158}"/>
+			<Prp name="unit 1" type="S" value="{70220D4F-05A2-45FB-A1A7-16C4EE307331}"/>
+			<Prp name="unit 0" type="S" value="{9F713C10-AE8F-4442-AE75-8EFEF362D512}"/>
+			<Prp name="unit 6" type="S" value="{40152A6B-9F74-4D25-ADEB-67F29CCB0B15}"/>
+			<Prp name="unit 3" type="S" value="{4470A244-BF13-4BEB-B4B4-27D8F098240E}"/>
+		</Node>
+		<Node name="message 74">
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="date" type="D" value="42387.5215684722"/>
+			<Prp name="id" type="I" value="74"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="unit id" type="I" value="5"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="line no" type="I" value="82"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="The property value &quot;Modified Date&quot; equals the baseline value &quot;Modified Date&quot;."/>
+			<Prp name="priority" type="I" value="300"/>
+		</Node>
+		<Node name="message 115">
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value="A click at point (112, 47) with no key pressed.&#xA;&#xA;Tested object:&#xA;Sys.Browser(&quot;iexplore&quot;).Page(&quot;https://hqqa80vm31/iXConnect/lgx_Engine/lgx_Frame.aspx?&amp;LinkParams=%5BLinkParams%20lgx_ID%3D\'OnlyDetailVBNet\'%20%20DetailID%3D\'App%2FCarrierBlocking\'%20%20%2F%5D&quot;).Frame(&quot;Detail&quot;).Panel(0).Panel(&quot;WorkOrder_list&quot;).TextNode(&quot;WorkOrder_listbox&quot;)"/>
+			<Prp name="date" type="D" value="42387.5241042708"/>
+			<Prp name="id" type="I" value="115"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="unit id" type="I" value="4"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="line no" type="I" value="206"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="priority" type="I" value="300"/>
+		</Node>
+		<Node name="message 14">
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value="A click at point (43, 13) with no key pressed.&#xA;&#xA;Tested object:&#xA;Sys.Browser(&quot;iexplore&quot;).Page(&quot;https://hqqa80vm31/iXAdmin/lgx_Engine/lgx_Frame.aspx?&amp;LinkParams=%5BLinkParams%20lgx_ID%3D\'WideDetail\'%20%20FromDate%3D\'%40Data.DefaultDate.FromDate~\'%20ToDate%3D\'%40Data.DefaultDate.ToDate~\'%20lgx_DetailID%3D\'dtlConfig\'%20FirstTime%3D\'1\'%20ConfigType%3D\'2\'%20%20%2F%5D&quot;).Frame(&quot;Detail&quot;).Table(&quot;lgx_Buttons&quot;).Cell(0, 0).Image(&quot;Save&quot;)"/>
+			<Prp name="date" type="D" value="42387.5166301505"/>
+			<Prp name="id" type="I" value="14"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="unit id" type="I" value="3"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="line no" type="I" value="106"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="priority" type="I" value="300"/>
+		</Node>
+		<Node name="message 29">
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value="'1' was sent as a keyboard input to the following window or control.&#xA;&#xA;Tested object:&#xA;Sys.Browser(&quot;iexplore&quot;).Page(&quot;https://hqqa80vm31/iXAdmin/lgx_Engine/lgx_Frame.aspx?&amp;LinkParams=%5BLinkParams%20lgx_ID%3D\'WideDetail\'%20%20FromDate%3D\'%40Data.DefaultDate.FromDate~\'%20ToDate%3D\'%40Data.DefaultDate.ToDate~\'%20lgx_DetailID%3D\'dtlConfig\'%20FirstTime%3D\'1\'%20ConfigType%3D\'2\'%20%20%2F%5D&quot;).Frame(&quot;Detail&quot;).Panel(0).Table(&quot;MRFConfig&quot;).Cell(15, 4).Textbox(&quot;MRFConfig_cConfigParamValue8_ConfigParamValue&quot;)"/>
+			<Prp name="date" type="D" value="42387.5175808449"/>
+			<Prp name="id" type="I" value="29"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="unit id" type="I" value="3"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="line no" type="I" value="104"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="Keyboard input."/>
+			<Prp name="priority" type="I" value="300"/>
+		</Node>
+		<Node name="message 87">
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="date" type="D" value="42387.5223342708"/>
+			<Prp name="id" type="I" value="87"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="unit id" type="I" value="5"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="line no" type="I" value="89"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="The property value &quot;New Work Order saved successfully&#xA;OK&quot; equals the baseline value &quot;New Work Order saved successfully&#xA;OK&quot;."/>
+			<Prp name="priority" type="I" value="300"/>
+		</Node>
+		<Node name="message 37">
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value="A click at point (25, 8) with no key pressed.&#xA;&#xA;Tested object:&#xA;Sys.Browser(&quot;iexplore&quot;).Page(&quot;https://hqqa80vm31/iXConnect/lgx_Engine/lgx_Frame.aspx?&amp;LinkParams=%5BLinkParams%20lgx_ID%3D\'OnlyDetailVBNet\'%20%20DetailID%3D\'App%2FCarrierBlocking\'%20%20%2F%5D&quot;).Frame(&quot;Header&quot;).Table(0).Cell(0, 0).TextNode(&quot;C2_mHome&quot;)"/>
+			<Prp name="date" type="D" value="42387.5182204282"/>
+			<Prp name="id" type="I" value="37"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="unit id" type="I" value="6"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="line no" type="I" value="57"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="priority" type="I" value="300"/>
+		</Node>
+		<Node name="message 57">
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value="A click at point (45, 8) with no key pressed.&#xA;&#xA;Tested object:&#xA;Sys.Browser(&quot;iexplore&quot;).Page(&quot;https://hqqa80vm31/iXConnect/lgx_Engine/lgx_Frame.aspx?&amp;LinkParams=%5BLinkParams%20lgx_ID%3D\'OnlyDetailVBNet\'%20%20DetailID%3D\'App%2FCarrierBlocking\'%20%20%2F%5D&quot;).Frame(&quot;Header&quot;).Table(0).Cell(0, 0).TextNode(&quot;C2_mDestination&quot;)"/>
+			<Prp name="date" type="D" value="42387.5210338079"/>
+			<Prp name="id" type="I" value="57"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="unit id" type="I" value="4"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="line no" type="I" value="15"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="priority" type="I" value="300"/>
+		</Node>
+		<Node name="message 52">
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value="A click at point (61, 10) with no key pressed.&#xA;&#xA;Tested object:&#xA;Sys.Browser(&quot;iexplore&quot;).Page(&quot;https://hqqa80vm31/iXHome/lgx_Engine/lgx_Frame.aspx?lgx_WindowID=Frame&amp;Linkparams=%5bLinkParams+lgx_ID%3d\'Default\'+%2f%5d&quot;).Frame(&quot;Modules&quot;).Panel(&quot;rConnect&quot;).Image(&quot;rConnect_iXConnect_iXConnect&quot;)"/>
+			<Prp name="date" type="D" value="42387.5205954398"/>
+			<Prp name="id" type="I" value="52"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="unit id" type="I" value="2"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="line no" type="I" value="25"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="priority" type="I" value="300"/>
+		</Node>
+		<Node name="n-0">
+			<Node name="data">
+				<Prp name="d-0" type="D" value="42387.524350162"/>
+			</Node>
+			<Prp name="id" type="S" value="{5C4EF7C7-C2C9-43CB-85AE-66E5E6E35778}"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="color" type="I" value="0"/>
+			<Prp name="description" type="S" value=""/>
+			<Prp name="length" type="I" value="1"/>
+			<Prp name="name" type="S" value="Date&amp;Time"/>
+			<Prp name="countertype" type="I" value="4"/>
+			<Prp name="columnindex" type="I" value="0"/>
+			<Prp name="isinteger" type="B" value="0"/>
+		</Node>
+		<Node name="item 2">
+			<Prp name="line no" type="I" value="107"/>
+			<Prp name="stacktext" type="S" value=""/>
+			<Prp name="unit id" type="I" value="5"/>
+		</Node>
+		<Node name="message 84">
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value="A click at point (33, 13) with no key pressed.&#xA;&#xA;Tested object:&#xA;Sys.Browser(&quot;iexplore&quot;).Page(&quot;https://hqqa80vm31/iXConnect/lgx_Engine/lgx_Frame.aspx?&amp;LinkParams=%5BLinkParams%20lgx_ID%3D\'OnlyDetailVBNet\'%20%20DetailID%3D\'App%2FCarrierBlocking\'%20%20%2F%5D&quot;).Frame(&quot;Detail&quot;).Panel(1).Panel(&quot;NewWorkOrderWindow&quot;).Panel(&quot;newCbWorkOrderDiv&quot;).Form(0).Panel(4).Panel(&quot;divMultiSelector_destinationMS&quot;).Panel(0).Panel(1).Button(&quot;btnMoveDest_destinationMS&quot;)"/>
+			<Prp name="date" type="D" value="42387.5221996875"/>
+			<Prp name="id" type="I" value="84"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="unit id" type="I" value="4"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="line no" type="I" value="129"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="priority" type="I" value="300"/>
+		</Node>
+		<Node name="message 43">
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value="A click at point (47, 6) with no key pressed.&#xA;&#xA;Tested object:&#xA;Sys.Browser(&quot;iexplore&quot;).Page(&quot;https://hqqa80vm31/iXAdmin/lgx_Engine/lgx_Frame.aspx?&amp;LinkParams=%5BLinkParams%20lgx_ID%3D\'Default\'%20%20lgxListID%3D\'\'%20lgx_ListID%3D\'lstProfile\'%20ActiveStatusID%3D\'1\'%20%20%2F%5D&quot;).Frame(&quot;List&quot;).Panel(0).Table(&quot;lgx_MainContainer&quot;).Cell(0, 0).Panel(&quot;lgx_MainDiv&quot;).Panel(&quot;lgx_ListDiv1&quot;).Panel(&quot;tbProfileTree&quot;).TextNode(&quot;tbProfileTree_ProfileID25_itmlProfile_itmProfile&quot;)"/>
+			<Prp name="date" type="D" value="42387.518742419"/>
+			<Prp name="id" type="I" value="43"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="unit id" type="I" value="3"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="line no" type="I" value="38"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="priority" type="I" value="300"/>
+		</Node>
+		<Node name="message 105">
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value="&lt;html&gt;																	   &lt;head&gt;																	   &lt;style&gt;																	   body, table																	   {font-family : Courier New, Arial; font-size : 10pt; font-weight : normal; padding : 14px 8px 8px 14px; margin : 0 0 0 0; width: 100%; text-align:left}																	   TH																	   {font-weight : normal;}																	   TD																	   { border-bottom: 2px solid #A0B5D0;}																	   SPAN.Gray																	   {color: #6D6D6D; }																	   SPAN.GrayBold																	   {font-weight: bold; color: #6D6D6D; }																	   SPAN.Bold																	   {font-weight: bold;}																	   .BoldLineBottom																	   {border-bottom: 2px solid #A0B5D0}																	   .BoldLineTop																	   {border-top: 2px solid #A0B5D0}																	   .BK {background-color: #DBEFFD}																	   .HB																	   {width:10%; white-space:nowrap;padding: 4px 4px 4px 4px;font-weight : bold;}																	   &lt;/style&gt;																	   &lt;/head&gt;																	   &lt;body&gt;																	   &lt;p&gt;The &quot;wItemList&quot; property of the &quot;Sys.Browser(&quot;iexplore&quot;).Page(&quot;https://hqqa80vm31/iXConnect/lgx_Engine/lgx_Frame.aspx?&amp;LinkParams=%5BLinkParams%20lgx_ID%3D\'OnlyDetailVBNet\'%20%20DetailID%3D\'App%2FCarrierBlocking\'%20%20%2F%5D&quot;).Frame(&quot;Detail&quot;).Panel(1).Panel(&quot;NewWorkOrderWindow&quot;).Panel(&quot;newCbWorkOrderDiv&quot;).Form(0).Panel(4).Panel(&quot;divMultiSelector_destinationMS&quot;).Panel(0).Panel(0).Select(&quot;from_destinationMS&quot;)&quot; object meets the checkpoint's condition.&lt;/p&gt;																	   &lt;table border=0 cellspacing=0 cellpadding=3&gt;																	   &lt;thead class='BK' valign=&quot;top&quot;&gt;																	   &lt;tr&gt;																	   &lt;th class='BoldLineTop HB'&gt;Object name:&lt;/th&gt;																	   &lt;th class='BoldLineTop'&gt;Sys.Browser(&quot;iexplore&quot;).Page(&quot;https://hqqa80vm31/iXConnect/lgx_Engine/lgx_Frame.aspx?&amp;LinkParams=%5BLinkParams%20lgx_ID%3D\'OnlyDetailVBNet\'%20%20DetailID%3D\'App%2FCarrierBlocking\'%20%20%2F%5D&quot;).Frame(&quot;Detail&quot;).Panel(1).Panel(&quot;NewWorkOrderWindow&quot;).Panel(&quot;newCbWorkOrderDiv&quot;).Form(0).Panel(4).Panel(&quot;divMultiSelector_destinationMS&quot;).Panel(0).Panel(0).Select(&quot;from_destinationMS&quot;)&lt;/th&gt;																	   &lt;/tr&gt;																	   &lt;tr&gt;																	   &lt;th class='BoldLineBottom HB'&gt;Property:&lt;/th&gt;																	   &lt;th class='BoldLineBottom'&gt;wItemList&lt;/th&gt;																	   &lt;/tr&gt;																	   &lt;/thead&gt;																	   &lt;tbody valign=&quot;top&quot;&gt;																	   &lt;tr&gt;																	   &lt;td class='BK HB'&gt;Actual value&lt;/td&gt;																	   &lt;td&gt;&quot;A101;A1012;A102;Afghanistan - FP;Afghanistan - FP  TEST;Albania Tirana Fixed;Albania Vodafone Mobile;Albania-FP - O;Albania-FP - O Ported To Albania New Test1;Albania-FP - O Ported To Albania-Mob - O;Albania-Mob - O;Albania-Shkoder - O;Albania-Tirana - O;Algeria - O;ALGERIA - SMS;Algeria Fixed;Algeria Mobile;Algeria Mobile Orascom;Algeria Mobile Orascom Port To Algeria Mobile telekom;Algeria Mobile Orascom Port To Algeria Mobile Wataniya;Algeria Mobile Orascom Ported To Algeria Mobile telekom;Algeria Mobile telekom;Algeria Mobile telekom Port To Algeria Mobile Orascom;Algeria Mobile telekom Port To Algeria Mobile Wataniya;Algeria Mobile telekom Port To Algeria-Mob - O;Algeria Mobile Wataniya;Algeria Mobile Wataniya Port To Algeria Mobile Orascom;Algeria Mobile Wataniya Port To Algeria Mobile telekom;Algeria Orascom Mobile;Algeria Wataniya Mobile;Algeria-Algier's - O;Algeria-Mob - O;American Samoa - O;American Samoa - O Ported To American Samoa-Mob - O;American Samoa-Mob - O;American Samoa-Pago Pago - O;Andorra - O;Andorra - Pal - O;ANDORRA - SMS;Andorra Fixed;Andorra Mobile;Andorra-Andorra la Velta - O;Andorra-FP - O;Andorra-Mob - O;Andorra-TestRatingProduct - O;Angola - O;ANGOLA - SMS;Angola-FP - O;Angola-Luanda - O;Angola-Mob - O;ANGUILLA - SMS;Anguilla Digicel Mobile;Anguilla Fixed;Anguilla Mobile;Anguilla-Mob - O;Anguilla-The Valley - O;Antarctica - O;Antarctica-Mob - O;ANTIGUA &amp; BARBUDA - SMS;Antigua &amp; Barbuda-Mob - O;Antigua &amp; Barbuda-Saint John's - O;Antigua (Barbuda) Fixed;Antigua (Barbuda) Mobile;Antigua Digicel Mobile;Argentina - O;ARGENTINA - SMS;Argentina - Special Fixed;Argentina Buenos Aires Fixed;Argentina Corredores Fixed;Argentina Mobile;Argentina ROC Fixed;Argentina-Buenos Aires - O;Argentina-Mob - O;Argentina-Mob - O Ported To Argentina-Buenos Aires - O;Armenia - O;Armenia Fixed;Armenia Mobile;Armenia Nagorni Karabakh Mobile;Armenia Premium;Armenia Yerevan Fixed;Armenia-FP - O;Armenia-Mob - O;Armenia-Yerevan - O;Aruba - O;ARUBA - SMS;Aruba Digicel Mobile;Aruba Fixed;Aruba Mio Mobile;Aruba Mobile;Aruba-FP - O;Aruba-Mob - O;Aruba-Oranjestad - O;Ascension Island - O;ASCENSION ISLAND - SMS;Ascension Island Fixed;Ascension Island-Jamestown - O;Ascension Island-Mob - O;ashokdestination;Atlantix - O;Atlantix-Atlanta - O;Atlantix-FP - O;Atlantix-Mob - O;Australia - O;AUSTRALIA - SMS;Australia Fixed;Australia Hutchison Mobile;Australia Metro Fixed;Australia Mobile;Australia Optus Mobile;Australia Reach Mobile;Australia Satellite Mobile;Australia Special Svcs Fixed;Australia Vodafone Mobile;Australia-Canberra - O;Australia-FP - O;Australia-Mob - O;Austria - O;AUSTRIA - SMS;Austria Fixed;Austria Mobile A Mobikom;Austria Mobile B T-Mobile;Austria Mobile Other;Austria Orange Mobile;Austria Special Svcs Mobile;Austria Telering Mobile;Austria-Mob - O;Austria-Vienna - O;autoXTestLD;Azerbaijan - O;AZERBAIJAN - SMS;Azerbaijan Baku Fixed;Azerbaijan Catel Mobile;Azerbaijan Fixed;Azerbaijan Mobile;Azerbaijan-Baku - O;Azerbaijan-Mob - O;Bahamas - O;Bahamas Fixed;Bahamas Mobile;Bahamas Test 2;Bahamas-Mob - O;Bahamas-Nassau - O;Bahrain - O;BAHRAIN - SMS;Bahrain Fixed;Bahrain Mena Fixed;Bahrain Mobile;Bahrain Viva Mobile;Bahrain Zain Mobile;Bahrain-Manama - O;Bahrain-Mob - O;Bangladesh - O;BANGLADESH - SMS;Bangladesh Chittagong Fixed;Bangladesh Dhaka Fixed;Bangladesh Fixed;Bangladesh Mobile;Bangladesh Mobile_SB;Bangladesh Syhlet Fixed;Bangladesh-chittagong;Bangladesh-Dhaka - O;Bangladesh-Mob - O;Bangladesh-Mobile-Grameen;Bangladesh-syhlet;Barbados - O;BARBADOS - SMS;Barbados Digicel Mobile;Barbados Fixed;Barbados Lime Mobile;Barbados Mobile Other;Barbados Premium Service;Barbados-Bridgetown - O;Barbados-Bridgetown - O Ported To Barbados - O;Barbados-FP - O;Barbados-Mob - O;Belarus - O;BELARUS - SMS;Belarus Fixed;Belarus Fixed Olo Fixed;Belarus Mobile;Belarus Telematic Service Fixed;Belarus-FP - O;Belarus-Minsk - O;Belarus-Mob - O;Belgium - NMobile;Belgium - O;Belgium Base Mobile;Belgium Fixed;Belgium Mob Base;Belgium Mob Base Port To Belgium Mob Mobistar;Belgium Mob Base Port To Belgium Mob Proximus;Belgium Mob Mobistar;Belgium Mob Mobistar Port To Belgium Mob Base;Belgium Mob Mobistar Port To Belgium Mob Proximus;Belgium Mob Proximus;Belgium Mob Proximus Port To Belgium Mob Base;Belgium Mob Proximus Port To Belgium Mob Mobistar;Belgium Mobile Other;Belgium Mobistar Mobile;Belgium Olo Fixed;Belgium Proximus Mobile;Belgium Telenet Mobile;Belgium Universal Access Number Fixed;Belgium-Brussel - O;Belgium-Mob - O;Belize - O;BELIZE - SMS;Belize Fixed;Belize Mobile;Belize Speednet Fixed;Belize Speednet Mobile;Belize-Belmopan - O;Belize-Mob - O;Benin - O;BENIN - SMS;Benin Fixed;Benin Mobile;Benin Mtn Mobile;Benin-Mob - O;Benin-Porto-Novo - O;Bermuda - O;BERMUDA - SMS;Bermuda Fixed;Bermuda Mobile;Bermuda-Hamilton - O;Bermuda-Mob - O;Bhutan - O;BHUTAN - SMS;Bhutan Fixed;Bhutan Mobile;Bhutan-FP - O;Bhutan-Mob - O;Bhutan-Thimphu - O;Bolivia - O;BOLIVIA - SMS;Bolivia Cochabamba City Fixed;Bolivia Entel Mobile;Bolivia Equal Access Fixed;Bolivia Fixed;Bolivia La Paz Fixed;Bolivia Mobile;Bolivia Nuevatel Mobile;Bolivia Santa Cruz City Fixed;Bolivia Telecel Mobile;Bolivia VOIP;Bolivia-FP - O;Bolivia-La Paz - O;Bolivia-Mob - O;Bosnia - O;BOSNIA AND HERZEGOVINA - SMS;Bosnia Mobile 1;Bosnia-FP - O;Bosnia-Hercegovina B Mobis Telecom;Bosnia-Hercegovina Fixed;Bosnia-Hercegovina Mobile A BH Telecom;Bosnia-Hercegovina Telecom Fixed Network;Bosnia-Mob - O;Bosnia-Sarajevo - O;Botswana - O;BOTSWANA - SMS;Botswana B Mobile;Botswana Fixed;Botswana Mobile;Botswana-Gabarone - O;Botswana-Mob - O;Brazil - O;BRAZIL - SMS;Brazil Belo Horizonte Fixed;Brazil Claro Mobile;Brazil Governador Valadares Fixed;Brazil Mobile;Brazil Nextel Mobile;Brazil OI Mobile;Brazil Other Mobile;Brazil Rio De Janero Fixed;Brazil ROC Fixed;Brazil Sao Paulo Fixed;Brazil Sao Paulo State Interior Fixed;Brazil Tier 1 Cities Fixed;Brazil TIM Mobile;Brazil Vivo Telefonica Mobile;Brazil-ITFS;Brazil-Mob - O;Brazil-Mob-Tim - O;British Virgin Islands - O;BRITISH VIRGIN ISLANDS - SMS;British Virgin Islands Digicel Mobile;British Virgin Islands Fixed;British Virgin Islands Mobile;British Virgin Islands-Mob - O;British Virgin Islands-Road Town - O;Brunei - O;Brunei Dst On Net Mobile;Brunei Fixed;Brunei Mobile;Brunei-Bandar Seri Begawan - O;Brunei-Mob - O;Bulgaria - O;BULGARIA - SMS;Bulgaria Btc Mobile;Bulgaria Fixed;Bulgaria Fixed Olo Group;Bulgaria Globul Mobile;Bulgaria Mobiltel Mobile;Bulgaria Wimax Mobile;Bulgaria-FP - O;Bulgaria-Mob - O;Bulgaria-Sofia - O;Burkina Faso - O;BURKINA FASO - SMS;Burkina Faso Fixed;Burkina Faso Mobile;Burkina Faso-FP - O;Burkina Faso-Mob - O;Burkina Faso-Ouagadougou - O;Burundi - O;BURUNDI - SMS;Burundi Fixed;Burundi-Bujumbura - O;Burundi-FP - O;Burundi-Mob - O;Cambodia - O;CAMBODIA - SMS;Cambodia Fixed;Cambodia Metfone Mobile;Cambodia Mobile;Cambodia-Mob - O;Cambodia-Phnom Penh - O;Cameroon - O;CAMEROON - SMS;Cameroon Fixed;Cameroon Mobile;Cameroon MTN Mobile;Cameroon Orange Mobile;Cameroon Special Svc Mobile;Cameroon-Mob - O;Cameroon-Yaounde - O;Canada;Canada - O;CANADA - SMS;CANADA-F-ALL-VALID-CODES-TO-CANADA-6040BC01000;CANADA-F-MAIN-CDEGRP-2890ON01000;CANADA-F-MAIN-CG-2490ON01000;CANADA-F-MAIN-CODE-GRP-2040MB01000;CANADA-F-MAIN-CODE-GRP-2260ON01000;CANADA-F-MAIN-CODEGRP-2500BC01000;CANADA-F-MAIN-CODEGRP-3060SK01000;CANADA-F-MAIN-CODEGRP-3430ON01000;CANADA-F-MAIN-CODE-GRP-4030AB01000;CANADA-F-MAIN-CODEGRP-4160ON01000;CANADA-F-MAIN-CODEGRP-4180PQ01000;CANADA-F-MAIN-CODEGRP-4380PQ01000;CANADA-F-MAIN-CODEGRP-4500PQ01000;CANADA-F-MAIN-CODEGRP-5060NB01000;CANADA-F-MAIN-CODEGRP-5140PQ01000;CANADA-F-MAIN-CODE-GRP-5190ON01000;CANADA-F-MAIN-CODE-GRP-5790PQ01000;CANADA-F-MAIN-CODEGRP-5810PQ01000;CANADA-F-MAIN-CODEGRP-5870AB01000;CANADA-F-MAIN-CODE-GRP-6130ON01000;CANADA-F-MAIN-CODEGRP-6470ON01000;CANADA-F-MAIN-CODEGRP-7050ON01000;CANADA-F-MAIN-CODEGRP-7090NF01000;CANADA-F-MAIN-CODEGRP-7780BC01000;CANADA-F-MAIN-CODE-GRP-7800AB01000;CANADA-F-MAIN-CODE-GRP-8070ON01000;CANADA-F-MAIN-CODEGRP-8190PQ01000;CANADA-F-MAIN-CODEGRP-8670NT01000;CANADA-F-MAIN-CODEGRP-9020NS01000;CANADA-F-MAIN-CODE-GRP-9050ON01000;CANADA-F-TEST-GRP-3430ON01OTH;Canada-ITFS;CANADA-NOT-ROUTABLE;Cape Verde Islands Fixed;Cape Verde Mobile;Cape Verde-Mob - O;Cape Verde-Praia - O;CAYMAN ISLANDS - SMS;Cayman Islands C&amp;W Mobile;Cayman Islands Fixed;Cayman Islands Mobile Digicel;Cayman Islands Mobile Other;Cayman Islands-FP - O;Cayman Islands-George Town - O;Cayman Islands-Mob - O;Central African Rep. Space Mobile;Central African Republic - O;CENTRAL AFRICAN REPUBLIC - SMS;Central African Republic Fixed;Central African Republic-Bangui - O;Central African Republic-FP - O;Central African Republic-Mob - O;Chad - O;CHAD - SMS;Chad Celtel Mobile;Chad Fixed;Chad Mobile;Chad-FP - O;Chad-Mob - O;Chad-N'Djarnena - O;Chile - O;CHILE - SMS;Chile Coyhaique Fixed;Chile Easter Island Fixed;Chile Fixed;Chile Mobile;Chile Rural Fixed;Chile Santiago Fixed;Chile Voip Fixed;Chile-Mob - O;Chile-Santiago - O;China - O;China - O2;CHINA - SMS;China Fixed;China Mobile;Christmas Cocos;Christmas Island - O;Christmas Island-Mob - O;Christmas Island-The Settlement - O;CMP_Fix_Islamabad;Cocos Islands - O;Cocos Islands-Mob - O;Cocos Islands-West Island - O;Colombia - O;COLOMBIA - SMS;Colombia Armenia Fixed;Colombia Avantel Mobile;Colombia Barranquilla Fixed;Colombia Bogota Fixed;Colombia Bucaramanga Fixed;Colombia Cali Fixed;Colombia Cartagena Fixed;Colombia Comcel Mobile;Colombia Local Extendida Fixed;Colombia Manizales Fixed;Colombia Medellin Fixed;Colombia Mobile;Colombia Movistar Mobile;Colombia Pereira Fixed;Colombia ROC Fixed;Colombia Tigo Mobile;Colombia-Bogota - O;Colombia-FP - O;Colombia-Mob - O;Comoros - O;COMOROS - SMS;Comoros Fixed;Comoros-FP - O;Comoros-Mob - O;Comoros-Moroni - O;Congo - O;Congo Fixed;Congo Mobile;Congo-Mob - O;Cook Islands - O;COOK ISLANDS - SMS;Cook Islands Fixed;Cook Islands-Mob - O;Cook Islands-RÄrotonga - O;Costa Rica - O;COSTA RICA - SMS;Costa Rica Claro Mobile;Costa Rica Fixed;Costa Rica Fixed Other;Costa Rica Mobile;Costa Rica MVNO Mobile;Costa Rica Special Services;Costa Rica Telefonica Mobile;Costa Rica-Mob - O;Costa Rica-San Jose - O;Country New Test;COUNTRY-FIXEDDESTINATION - SMS;CROATIA - SMS;Croatia Fixed;Croatia Ht Mobile;Croatia Mobile;Cuba - O;CUBA - SMS;Cuba Fixed;Cuba-Havana - O;Cuba-Mob - O;Cyprus - O;CYPRUS - SMS;Cyprus Cyta Mobile;Cyprus Fixed;Cyprus Lemontel Mobile;Cyprus Mtn Mobile;Cyprus Primetel Mobile;Cyprus Special Services;Cyprus Voicemail;Cyprus-FP - O;Cyprus-Mob - O;Cyprus-Nicosia (Lefkosia) - O;CZECH REP FIXED SPECIAL SERVICES;Czech Republic - O;CZECH REPUBLIC - SMS;Czech Republic Fixed;Czech Republic Mobile;Czech Republic-FP - O;Czech Republic-Mob - O;Czech Republic-Prague - O;Dem Rep Of Congo Africell Mobile;Dem Rep Of Congo Fixed;Dem Rep Of Congo MTN Mobile;Dem Rep Of Congo Special Services;Dem Rep Of Congo TATEM Mobile;Dem Rep Of Congo Vodacom Mobile;Dem. Rep Of Congo Mobile Airtel;Dem. Rep Of Congo Mobile Cct;Dem. Rep Of Congo Mobile Tigo;DEMOCRATIC REPUBLIC OF THE CONGO - SMS;Denmark - O;DENMARK - SMS;Denmark Fixed;Denmark Mobile Other;Denmark Tdc Mobile;Denmark Telenor Mobile;Denmark Telia Mobile;Denmark-Copenhagen - O;Denmark-Mob - O;dest auto;Dest International Network;dest11;Destination211;Diego Garcia - O;Diego Garcia Fixed;Diego Garcia-Mob - O;Djibouti - O;DJIBOUTI - SMS;Djibouti Fixed;Djibouti-Mob - O;Dominica - O;DOMINICA - SMS;Dominica C&amp;W Mobile;Dominica Fixed;Dominica Mobile;Dominica-Mob - O;Dominican Republic - O;DOMINICAN REPUBLIC 1809 - SMS;Dominican Republic Centennial Mobile;Dominican Republic Fixed;Dominican Republic Mobile;Dominican Republic Orange Mobile;Dominican Republic Santo Dom Fixed;Dominican Republic-FP - O;Dominican Republic-Mob - O;Dominican Republic-Santo Domingo - O;Dominica-Roseau - O;East Timor - O;EAST TIMOR - SMS;East Timor Fixed;East Timor-Dili - O;East Timor-FP - O;East Timor-Mob - O;Ecuador - O;ECUADOR - SMS;Ecuador Alegro Pcs Mobile;Ecuador Cnt Fixed;Ecuador Etapatelecom Fixed;Ecuador Fixed;Ecuador Linkotel Fixed;Ecuador Mobile Other;Ecuador Movistar Mobile;Ecuador Porta Mobile;Ecuador Telecom Fixed;Ecuador-FP - O;Ecuador-Mob - O;Ecuador-Quito - O;Egypt - O;EGYPT - SMS;Egypt Etisalat Mobile;Egypt Fixed;Egypt Mobile;Egypt Mobile Vodafone;Egypt-Cairo - O;Egypt-Mob - O;El Salvador - O;EL SALVADOR - SMS;El Salvador Digicel FIXED;El Salvador Digicel Mobile;El Salvador Fixed;El Salvador Off-Net Fixed;El Salvador On-Net Fixed;El Salvador On-Net Mobile;El Salvador Other Mobile;El Salvador Telefonica Fixed;El Salvador Telefonica Mobile;El Salvador Telemovil FIXED;El Salvador Telemovil Mobile;El Salvador-Mob - O;El Salvador-San Salvador - O;Equatorial Guinea - O;EQUATORIAL GUINEA - SMS;Equatorial Guinea Fixed;Equatorial Guinea Mobile;Equatorial Guinea-Malabo - O;Equatorial Guinea-Mob - O;Eritrea - O;Eritrea Fixed;Eritrea Mobile;Eritrea-Asmara - O;Eritrea-Mob - O;Estonia - O;ESTONIA - SMS;Estonia Fixed;Estonia Mobile;Estonia Mobile Elisa;Estonia Mobile Emt;Estonia Mobile Tele2;Estonia-FP - O;Estonia-Mob - O;Estonia-Tallinn - O;Ethiopia - O;ETHIOPIA - SMS;Ethiopia Addis Ababa Fixed;Ethiopia Addis Ababa Mobile;Ethiopia Fixed;Ethiopia Mobile;Ethiopia-Addis Ababa - O;Ethiopia-Mob - O;Faeroe Islands Fixed;Falkland Islands - O;FALKLAND ISLANDS - SMS;Falkland Islands Fixed;Falkland Islands-FP - O;Falkland Islands-Mob - O;Falkland Islands-Stanley - O;Fantasieland;Fantasieland City;Fantasieland Mobile;Far Away;Faroe Islands - O;FAROE ISLANDS - SMS;Faroe Islands-Mob - O;Faroe Islands-Torshavn - O;Fiji - O;FIJI - SMS;Fiji Digicel Mobile;Fiji Fixed;Fiji Mobile;Fiji-Mob - O;Fiji-Suva - O;Finland - O;FINLAND - SMS;Finland Elisa Mobile;Finland Fixed;Finland Mobile;Finland New Test;Finland Portable Numbers Fixed;Finland Services Fixed;Finland Sonera Mobile;Finland-Mob - O;Fixed Destn-1;France - O;FRANCE - SMS;France Clec Fixed;France Fixed;France Free Mobile;France Global Star Mobile;France Mobile Bouygues;France Mobile Orange;France Mobile Other;France Mobile Sfr;France VAS;France-Paris - O;Free Phone;French Antilles - O;French Antilles-Mob - O;French Guiana - O;FRENCH GUIANA - SMS;French Guiana Fixed;French Guiana Mobile;French Guiana-Cayenne - O;French Guiana-FP - O;French Guiana-Mob - O;French Polynesia - O;FRENCH POLYNESIA - SMS;French Polynesia Fixed;French Polynesia Mobile;French Polynesia-FP - O;French Polynesia-Mob - O;French Polynesia-Papeete - O;Future Dest MF 1;Gabon - O;GABON - SMS;Gabon Libertis Mobile;Gabon Republic Fixed;Gabon Republic Mobile;Gabon Zain Mobile;Gabon-Mob-Celtel-O Port To Gabon-Mob-Libertis-O;Gabon-Mob-Libertis-O Port To Gabon-Mob-Celtel-O;Gabon-Mob-Telecel-O Port To Gabon-Mob-Celtel-O;Gambia - O;GAMBIA - SMS;Gambia Fixed;Gambia Mobile;Gambia-Banjul - O;Gambia-ITFS;Gambia-Mob - O;Georgia - O;GEORGIA - SMS;Georgia Fixed;Georgia Mobile;Georgia New Test;Georgia New Test 2;Georgia New Test 3;Georgia-Mob - O;Georgia-T'bilisi - O;Germany - O;GERMANY - SMS;Germany Eplus Mobile;Germany Fixed;Germany Fixed Other;Germany MNVO Mobile;Germany Mobile - E-Plus;Germany Mobile Other;Germany O2 Mobile;Germany Personal Number Mobile;Germany T-Mobile;Germany Vodafone Mobile;Germany VOIP;Germany-Berlin - O;Germany-Country Direct;Germany-ITFS;Germany-Mob - O;Germany-Mob - O Ported To Germany - O;Ghana - O;GHANA - SMS;Ghana Fixed;Ghana Mobile;Ghana Mtn Mobile;Ghana Vodafone Mobile;Ghana-Accra - O;Ghana-FP - O;Ghana-Mob - O;Gibraltar - O;GIBRALTAR - SMS;Gibraltar Fixed;Gibraltar Mobile;Gibraltar-FP - O;Gibraltar-Gibraltar - O;Gibraltar-Mob - O;Greece - O;GREECE - SMS;Greece Fixed;Greece Mobile;Greece Wind Mobile;Greece-Athens - O;Greece-FP - O;Greece-Mob - O;GREENLAND;Greenland - O;GREENLAND - SMS;Greenland Fixed;Greenland Mobile;Greenland-Mob - O;Greenland-Nuuk - O;Grenada - O;GRENADA - SMS;Grenada Fixed;Grenada Mobile;Grenada Premium Service;Grenada-Mob - O;Grenada-Saint George's - O;Guadeloupe - O;GUADELOUPE - SMS;Guadeloupe Fixed;Guadeloupe Mobile;Guadeloupe-Basse-Terre - O;Guadeloupe-Mob - O;Guatemala - O;Guatemala - On Net Fixed;GUATEMALA - SMS;Guatemala Comcel Mobile;Guatemala On Net Mobile (Pcs);Guatemala ROC Fixed;Guatemala Telefonica Mobile;Guatemala-Guatemala (City) - O;Guatemala-Mob - O;Guinea - O;GUINEA - SMS;Guinea Bissau - O;Guinea Bissau Fixed;Guinea Bissau Mobile;Guinea Bissau Spacetel Mobile;Guinea Bissau-Bissau - O;Guinea Bissau-FP - O;Guinea Bissau-Mob - O;Guinea Cellcom Mobile;Guinea Fixed;Guinea Mobile;Guinea Mobile 1;Guinea Mtn Mobile;GUINEA-BISSAU - SMS;Guinea-Conakry - O;Guinea-FP - O;Guinea-Mob - O;Guyana - O;Guyana - O Ported To Guyana-Mob - O;GUYANA - SMS;Guyana Digicel Mobile;Guyana Fixed;Guyana Mobile Other;Guyana-FP - O;Guyana-Georgetown - O;Guyana-Mob - O;Guyana-Network;Haiti - O;HAITI - SMS;Haiti Comcel Mobile;Haiti Fixed;Haiti Haitel FIXED;Haiti Haitel Mobile;Haiti Mobile;Haiti Mobile Digicel;Haiti Natcom FIXED;Haiti Natcom Mobile;Haiti-Mob - O;Haiti-Port-au-Prince - O;Hawaii;hello;hello - mob;hello - mob Ported To hello;hello Ported To hello - mob;Honduras - O;HONDURAS - SMS;Honduras Celtel Mobile;Honduras Digicel Mobile;Honduras Fixed;Honduras Hondutel Fixed On Net;Honduras Hondutel Mobile;Honduras Sercom/Claro Mobile;Honduras-Mob - O;Honduras-Tegucigalpa - O;HONG KONG - SMS;Hong Kong Fixed;Hong Kong Mobile;Hong Kong Mobile-3G;Hong Kong Mobile-CMHK;Hong Kong Mobile-CSL;Hong Kong Mobile-HCG;Hungary - O;HUNGARY - SMS;Hungary Fixed;Hungary Pannon Mobile;Hungary T-Mobile;Hungary Vodafone Mobile;Hungary-Budapest - O;Hungary-Mob - O;Iceland - O;ICELAND - SMS;Iceland Fixed;Iceland Mobile;Iceland Og Vodafone Mobile;Iceland Tal Mobile;Iceland Telecom Mobile;Iceland-FP - O;Iceland-Mob - O;Iceland-Reykjavik - O;India - O;INDIA - SMS;India Ahmedabad Fixed;India Bangalore Fixed;India Bsnl Mobile;India Calcutta Fixed;India Chennai Fixed;India Delhi Fixed;India Ernakulam Fixed;India Fixed;India Gujarat Fixed;India Hyderabad Fixed;India Jalandhar Fixed;India Kerala Fixed;India Mobile 7;India Mobile 8;India Mobile Other;India Mumbai Fixed;India Pune Fixed;India Punjab Fixed;India Tamil Nadu Fixed;India-HYD;India-Mob - O;India-New Delhi - O;India-New Delhi - O Ported To India Bsnl Mobile;India-Vizak;Indi-destn-1;Indonesia - O;INDONESIA - SMS;Indonesia Excelcomindo Mobile;Indonesia Fixed;Indonesia Hutchinson Mobile;Indonesia Indosat Mobile On Net;Indonesia Jakarta Fixed;Indonesia Mobile;Indonesia Mobile Code 868;Indonesia Surabaya Fixed;Indonesia Telkomsel Mobile;Indonesia-FP - O;Indonesia-Jakarta - O;Indonesia-Mob - O;Inmarsat;Inmarsat Aero;INMARSAT Atlantic East - O;INMARSAT Atlantic East-Mob - O;INMARSAT Atlantic West - O;INMARSAT Atlantic West-Mob - O;Inmarsat B HSD;Inmarsat B Voice;Inmarsat BGAN;Inmarsat BGAN HSD;Inmarsat C;Inmarsat GAN HSD;INMARSAT Indian Ocean - O;INMARSAT Indian Ocean-Mob - O;Inmarsat M Voice;Inmarsat Mini-M;INMARSAT Pacific - O;INMARSAT Pacific-Mob - O;INMARSAT Snac - O;INMARSAT Snac-Mob - O;Intl Networks - Aeromobile;Intl Networks - MCP;Intl Networks - Seanet;Intl Networks - Thuraya;Intl Networks - Vodafone Malta;Iran - O;Iran Fixed;Iran Irancell Mobile;Iran Mobile;Iran Tehran;Iran-FP - O;Iran-Mob - O;Iran-Tehran - O;Iraq - O;IRAQ - SMS;Iraq / Asia Cell Mobile;Iraq Fixed;Iraq Korek Mobile;Iraq Mobile;Iraq Mobile WLL Fanoos;Iraq Test DDD 2015;Iraq Zain Mobile;Iraq-Baghdad - O;Iraq-FP - O;Iraq-Mob - O;Ireland - O;IRELAND - SMS;Ireland Fixed;Ireland Folo Fixed;Ireland Meteor Mobile;Ireland Mobile;Ireland O2 Mobile;Ireland PNS Fixed;Ireland Universal Access Fixed;Ireland Vodafone Mobile;Ireland Voip Number Range Fixed;Ireland-Dublin (City) - O;Ireland-Mob - O;Iridium - O;Iridium Satelite - O;Iridium Satelite-Mob - O;Iridium-Mob - O;Israel - O;ISRAEL - SMS;Israel Fixed;Israel Mobile;Israel-Jerusalem - O;Israel-Mob - O;Italy - O;ITALY - SMS;Italy Fixed;Italy H3G Mobile;Italy Lycamobile;Italy Mobile Other;Italy Mobile Tel Italia;Italy Mobile Vodafone/Omnitel;Italy Mobile Wind;Italy Noverca Mobile;Italy Personal Svcs Mobile;Italy-FP - O;Italy-Mob - O;Italy-Rome - O;Ivory Coast - O;Ivory Coast Comium Mobile;Ivory Coast Fixed;Ivory Coast Mobile;Ivory Coast MTN Fixed;Ivory Coast Mtn Mobile;Ivory Coast Orange Mobile;Ivory Coast Oricel Mobile;Ivory Coast Personal Svcs Mobile;Ivory Coast-FP - O;Ivory Coast-Mob - O;Ivory Coast-Yamoussoukro - O;Jamaica - O;JAMAICA - SMS;Jamaica Fixed;Jamaica Mobile C&amp;W;Jamaica Mobile Digicel;Jamaica Mobile Other;Jamaica-FP - O;Jamaica-Kingston - O;Jamaica-Mob - O;JAPAN - SMS;Japan Fixed;Japan Mobile;Japan Mobile-VAS1;Japan Mobile-VAS2;Japan VOIP Fixed;Jersey-ROC;Jordan - O;JORDAN - SMS;Jordan Fastlink Mobile;Jordan Fixed;Jordan Mobile;Jordan Mobile Com;Jordan-Amman - O;Jordan-Mob - O;JUSTIN-TEST;Kazakhstan - O;KAZAKHSTAN - SMS;Kazakhstan Alternative Networks;Kazakhstan Fixed;Kazakhstan Kar-Tel Mobile;Kazakhstan K-Cell Mobile;Kazakhstan Metro Fixed;Kazakhstan Mobile;Kazakhstan Other Cities Fixed;Kazakhstan-Almaty - O;Kazakhstan-Mob - O;Kenya - O;KENYA - SMS;Kenya Celtel Mobile;Kenya Fixed;Kenya Mobile;Kenya Orange Mobile;Kenya Safaricom Mobile;Kenya-Mob - O;Kenya-Nairobi - O;khgk;Kiribati - O;Kiribati Fixed;Kiribati-FP - O;Kiribati-Mob - O;Kiribati-Tarawa - O;kor south CSD test;Korea Fixed_SB;Korea Mobile_SB;Korea North - O;Korea North Fixed;Korea North-FP - O;Korea North-Mob - O;Korea North-Pyongyang - O;Korea South - David temp dest;Korea South Fixed;Korea South IP Fixed;Korea South Mobile;Korea South Mobile Roaming;Korea South Skt Mobile;Korea South-FP - O;Korea South-Mob - O;Korea South-Seoul - O;Kuwait - O;KUWAIT - SMS;Kuwait Fixed;Kuwait Viva Mobile;Kuwait Wataniya Mobile;Kuwait Zain Mobile;Kuwait-Kuwait (City) - O;Kuwait-Mob - O;Kyrgyzstan - O;KYRGYZSTAN - SMS;Kyrgyzstan Fixed;Kyrgyzstan Mobile;Kyrgyzstan Nur Mobile;Kyrgyzstan-Bishkek - O;Kyrgyzstan-Mob - O;Laos - O;Laos Fixed;Laos Mobile;Laos-Mob - O;Laos-Vientiane - O;Latvia - O;LATVIA - SMS;Latvia Baltija Mobile;Latvia Bite Mobile;Latvia Fixed;Latvia Ltm Mobile;Latvia Mobile;Latvia Other;Latvia Premium;Latvia Tele2 Mobile;Latvia-Mob - O;Latvia-Riga - O;Lebanon - O;LEBANON - SMS;Lebanon Fixed;Lebanon Mobile;Lebanon-Beirut - O;Lebanon-FP - O;Lebanon-Mob - O;Lesotho - O;LESOTHO - SMS;Lesotho Kingdom Of Fixed;Lesotho Kingdom Of Mobile;Lesotho Vodacom Mobile;Lesotho-FP - O;Lesotho-Maseru - O;Lesotho-Mob - O;Liberia - O;LIBERIA - SMS;Liberia Fixed;Liberia Mobile;Liberia Mtn Mobile;Liberia-FP - O;Liberia-Mob - O;Liberia-Monrovia - O;Libya - O;Libya Fixed;Libya Mobile;Libya-Mob - O;Libya-Tripoli - O;Liechtenstein - O;LIECHTENSTEIN - SMS;Liechtenstein Fixed;Liechtenstein Mobile;Liechtenstein Mobility Services;Liechtenstein Voice Mail;Liechtenstein-Mob - O;Liechtenstein-Vaduz - O;Lithuania - O;LITHUANIA - SMS;Lithuania Fixed;Lithuania Mobile;Lithuania-Mob - O;Lithuania-Vilnius - O;Luxembourg - O;LUXEMBOURG - SMS;Luxembourg Fixed;Luxembourg Join Mobile;Luxembourg Luxgsm Mobile;Luxembourg Tango Mobile;Luxembourg Vox Mobile;Luxembourg-Luxembourg - O;Luxembourg-Mob - O;Macao - O;Macao-Mob - O;Macau Fixed;Macau Mobile;Macedonia - O;Macedonia Fixed;Macedonia Mobile;Macedonia-FP - O;Macedonia-Mob - O;Macedonia-Skopje - O;Madagascar - O;MADAGASCAR - SMS;Madagascar Blueline Mobile;Madagascar Fixed;Madagascar Mobile;Madagascar Space Mobile;Madagascar-Antananarivo - O;Madagascar-FP - O;Madagascar-Mob - O;Malawi - O;MALAWI - SMS;Malawi Fixed;Malawi Mobile;Malawi-Lilongwe - O;Malawi-Mob - O;Malaysia - O;MALAYSIA - SMS;Malaysia Celcom Mobile;Malaysia Digi Mobile;Malaysia Fixed;Malaysia Maxis Mobile;Malaysia Mobile Other;Malaysia Mobile_SB;Malaysia MVNO Mobile;Malaysia-Kuala Lumpur - O;Malaysia-Mob - O;Maldives - O;MALDIVES - SMS;Maldives Rep Of Fixed;Maldives Rep Of Mobile;Maldives Rep Of Wataniya Mobile;Maldives-Male - O;Maldives-Mob - O;Mali - O;MALI - SMS;Mali Fixed;Mali Ikatel Mobile;Mali Mobile;Mali-Bamako - O;Mali-Mob - O;Malta - O;MALTA - SMS;Malta Fixed;Malta Mobile;Malta-FP - O;Malta-Mob - O;Malta-Valletta - O;Marshall Island Fixed;Marshall Islands - O;Marshall Islands-FP - O;Marshall Islands-Majuro - O;Marshall Islands-Mob - O;Martinique Fixed;Martinique Mobile;Mauritania - O;MAURITANIA - SMS;Mauritania Chinguitel Fixed;Mauritania Chinguitel Mobile;Mauritania Fixed;Mauritania Mattel Fixed;Mauritania Mattel Mobile;Mauritania Mauritel Fixed;Mauritania Mauritel Mobile;Mauritania-FP - O;Mauritania-Mob - O;Mauritania-Nouakchott - O;Mauritius - O;MAURITIUS - SMS;Mauritius Fixed;Mauritius Mobile;Mauritius-Mob - O;Mauritius-Port Louis - O;Mayotte - O;Mayotte Island Fixed;Mayotte Island Mobile;Mayotte-Mamoutzou - O;Mayotte-Mob - O;MEXICO - O;MEXICO - SMS;Mexico Axtel Mobile;Mexico Iusacell Mobile;Mexico Nextel Mobile;Mexico Telcel Mobile;Mexico Telcel Offnet Mobile;Mexico Telcel Triangle Mobile;Mexico Telefonica Mobile;Mexico Unefon Mobile;Mexico-(Proper)-(Proper);Mexico-(Satellite);Mexico-Acaponeta;Mexico-Acapulco;Mexico-Actopan;Mexico-Agua Prieta;Mexico-Agualeguas;Mexico-Aguascalientes;Mexico-Ahuacatlan;Mexico-Allende;Mexico-Amanalco De Becerra;Mexico-Amecameca;Mexico-Apatzingan;Mexico-Apizaco;Mexico-Arcelia;Mexico-Arizpe;Mexico-Atlacomulco;Mexico-Atlixco;Mexico-Atoyac De Alvarez;Mexico-Autlan;Mexico-Bahia De Huatulco;Mexico-Caborca;Mexico-Cadereyta;Mexico-Campeche;Mexico-Cananea;Mexico-Cancun;Mexico-Celaya;Mexico-Chetumal;Mexico-Chihuahua;Mexico-Chilapa;Mexico-Chilpancingo;Mexico-Cintalapa;Mexico-Ciudad Acuna;Mexico-Ciudad Altamirano;Mexico-Ciudad Camargo;Mexico-Ciudad Constitucion;Mexico-Ciudad Cuauhtemoc;Mexico-Ciudad Del Carmen;Mexico-Ciudad Delicias;Mexico-Ciudad Gustavo Diaz Ordaz;Mexico-Ciudad Guzman;Mexico-Ciudad Hidalgo;Mexico-Ciudad Juarez;Mexico-Ciudad Lazaro Cardenas;Mexico-Ciudad Mante;Mexico-Ciudad Obregon;Mexico-Ciudad Sahagun;Mexico-Ciudad Valles;Mexico-Ciudad Victoria;Mexico-Coatzacoalcos;Mexico-Colima;Mexico-Cordoba;Mexico-Cosamaloapan;Mexico-Cozumel;Mexico-Cuautla;Mexico-Cuernavaca;Mexico-Culiacan;Mexico-Durango;Mexico-Encarnacion De Diaz;Mexico-Ensenada;Mexico-Estacion Chontalpa;Mexico-Fresnillo;Mexico-Gral. Bravo;Mexico-Guadalajara;Mexico-Guadalupe Victoria;Mexico-Guamuchil;Mexico-Guanajuato;Mexico-Guasave;Mexico-Guaymas;Mexico-Hermosillo;Mexico-Huatabampo;Mexico-Huetamo;Mexico-Huitzuco;Mexico-Iguala;Mexico-Irapuato;Mexico-Ixtapan De La Sal;Mexico-Izucar De Matamoros;Mexico-Jalapa;Mexico-Jalpa;Mexico-Jerez De Garcia Salinas;Mexico-Jesus Maria Garza;Mexico-Jojutla;Mexico-Juchitan;Mexico-La Barca;Mexico-La Paz;Mexico-La Piedad;Mexico-Lagos De Moreno;Mexico-Leon;Mexico-Lerdo De Tejada;Mexico-Lerma;Mexico-Linares;Mexico-Los Mochis;Mexico-Los Reyes;Mexico-Magdalena;Mexico-Manuel;Mexico-Manzanillo;Mexico-Martinez De La Torre;Mexico-Matamoros;Mexico-Matehuala;Mexico-Mazatlan;Mexico-Merida;Mexico-Mexicali;Mexico-Mexico City;MEXICO-Mexico City - O;Mexico-Minatitlan;MEXICO-Mob - O;Mexico-Monclova;Mexico-Montemorelos;Mexico-Monterrey;Mexico-Morelia;Mexico-Moroleon;Mexico-Navojoa;Mexico-Nogales;Mexico-Nuevo Casas Grandes;Mexico-Nuevo Laredo;Mexico-Oaxaca;Mexico-Ocotlan;Mexico-Ojinaga;Mexico-Ometepec;Mexico-Orizaba;Mexico-Oxkutzcab;Mexico-Pachuca;Mexico-Palenque;Mexico-Parral;Mexico-Parras De La Fuente;Mexico-Patzcuaro;Mexico-Penjamo;Mexico-Petatlan;Mexico-Piedras Negras;Mexico-Poza Rica;Mexico-Puebla;Mexico-Puerto Penasco;Mexico-Puerto Vallarta;Mexico-Punta Abreojos;Mexico-Puruandiro;Mexico-Queretaro;Mexico-Reynosa;Mexico-Rio Grande;Mexico-Rio Verde;Mexico-Rosarito;Mexico-Sabinas;Mexico-Sahuayo;Mexico-Salamanca;Mexico-Saltillo;Mexico-Salvatierra;Mexico-San Andres Tuxtla;Mexico-San Cristobal De Las Casas;Mexico-San Felipe;Mexico-San Felipe Aztatan;Mexico-San Fernando;Mexico-San Jose De Gracia;Mexico-San Jose Del Cabo;Mexico-San Juan Del Rio;Mexico-San Luis De La Paz;Mexico-San Luis Potosi;Mexico-San Luis Rio Colorado;Mexico-San Miguel De Allende;Mexico-San Quintin;Mexico-Santa Ana;Mexico-Santiago Ixcuitlan;Mexico-Santiago Papasquiaro;Mexico-Santiago Tianguistenco;Mexico-Silao;Mexico-Tala;Mexico-Tampico;Mexico-Tanhuato;Mexico-Tapachula;Mexico-Taxco;Mexico-Tecate;Mexico-Tecoman;Mexico-Tehuacan;Mexico-Teloloapan;Mexico-Tenancingo;Mexico-Tepatitlan;Mexico-Tepic;Mexico-Tequila;Mexico-Texcoco;Mexico-Teziutlan;Mexico-Tijuana;Mexico-Tixtla;Mexico-Tizayuca;Mexico-Tlapa De Comonfort;Mexico-Tlaxcala;Mexico-Toluca;Mexico-Torreon;Mexico-Tula;Mexico-Tulancingo;Mexico-Tuxpan;Mexico-Tuxtepec;Mexico-Tuxtla Gutierrez;Mexico-Ures;Mexico-Uruapan;Mexico-Veracruz;Mexico-Villa Aldama;Mexico-Villahermosa;Mexico-Zacapu;Mexico-Zacatecas;Mexico-Zamora;Mexico-Zihuatanejo;Mexico-Zinapecuaro;Mexico-Zitacuaro;Mexico-Zumpango;Micronesia;Micronesia - O;MICRONESIA - SMS;Micronesia Mobile;Micronesia-Mob - O;Micronesia-Palikir - O;Mike Test Upload 1;Mike Test Upload 2;Moldova - O;MOLDOVA - SMS;Moldova Fixed;Moldova Mobile;Moldova-Chisinau - O;Moldova-FP - O;Moldova-Mob - O;Monaco - O;Monaco Fixed;Monaco Kosovo Mobile;Monaco Mobile;Monaco-FP - O;Monaco-Mob - O;Monaco-Monaco - O;Mongolia - O;MONGOLIA - SMS;Mongolia-FP - O;Mongolia-Mob - O;Mongolian People Republic Fixed;Mongolian People Republic Mobile;Mongolia-Ulaanbaatar - O;MONTENEGRO - SMS;Montenegro Fixed;Montenegro Mobile;Montserrat - O;MONTSERRAT - SMS;Montserrat Fixed;Montserrat Mobile;Montserrat-Mob - O;Montserrat-Plymouth - O;Morocco - O;MOROCCO - SMS;Morocco Fixed;Morocco Mobile;Morocco Mobile Meditel;Morocco Wana Network Mobile;Morocco-Mob - O;Morocco-Rabat - O;Mozambique - O;MOZAMBIQUE - SMS;Mozambique Fixed;Mozambique Mobile;Mozambique Vodacom Mobile;Mozambique-Maputo - O;Mozambique-Mob - O;Multiple_CC_Dest;Myanmar - O;MYANMAR - SMS;Myanmar Fixed;Myanmar Mobile;Myanmar Ooredoo Mobile;Myanmar Telenor Mobile;Myanmar-Mob - O;Myanmar-Yangon - O;Namibia - O;NAMIBIA - SMS;Namibia Fixed;Namibia Mobile;Namibia-FP - O;Namibia-Mob - O;Namibia-Windhoek - O;NandTestDestination;NandTEstdestination-4;NandTest-network;Nauru - O;NAURU - SMS;Nauru Digicel Mobile;Nauru Fixed;Nauru-FP - O;Nauru-Mob - O;Nauru-Yaren District - O;Nepal - O;NEPAL - SMS;Nepal Fixed;Nepal Kathmandu Fixed;Nepal Mobile;Nepal Mobile Spice;Nepal NTC GSM Mobile;Nepal UTL Fixed;Nepal UTL Mobile;Nepal-FP - O;Nepal-Kathmandu - O;Nepal-Mob - O;Netherland Antilles - O;Netherland Antilles-Mob - O;Netherland Antilles-Willemstad - O;Netherlands - O;NETHERLANDS ANTILLES - SMS;Netherlands Antilles Ctm Mobile;Netherlands Antilles Curacao Fixed;Netherlands Antilles Digicel;Netherlands Antilles Fixed;Netherlands Antilles Mobile;Netherlands Antilles St Maarten Fixed;Netherlands Fixed;Netherlands Kpn Mobile;Netherlands Mobile;Netherlands Special Services Fixed;Netherlands T Mobile;Netherlands Tele2 Mobile;Netherlands Telfort Mobile;Netherlands Vodafone Mobile;Netherlands-Amsterdam - O;Netherlands-Mob - O;New Caledonia - O;NEW CALEDONIA - SMS;New Caledonia Fixed;New Caledonia-Mob - O;New Caledonia-Noumea - O;New Test 2/2;New Zealand - O;NEW ZEALAND - SMS;New Zealand Fixed;New Zealand Mobile Other;New Zealand Mobile Scott Base;New Zealand Mobile Vodafone;New Zealand Pager Mobile;New Zealand Vodafone Roaming Mobile;New Zealand-Mob - O;New Zealand-Wellington - O;NewDestination5;NewDestn-11;NewDestn-12;NewDestn-13;NewRefDestn-8;NewRefDestn-9;newtest2;newtest3;Nicaragua - O;NICARAGUA - SMS;Nicaragua Claro Mobile;Nicaragua Fixed;Nicaragua Globalstar Mobile;Nicaragua Mobile;Nicaragua Movistar Mobile;Nicaragua-FP - O;Nicaragua-Mob - O;Niger - O;NIGER - SMS;Niger Mobile;Niger Orange Mobile;Niger Republic Fixed;Niger Space Mobile;Niger-FP - O;Nigeria - O;NIGERIA - SMS;Nigeria Celtel Zain Mobile;Nigeria Fixed;Nigeria Globacom Mobile;Nigeria Lagos Fixed;Nigeria Mobile;Nigeria Mtn Mobile;Nigeria-Abuja - O;Nigeria-FP - O;Nigeria-Mob - O;Niger-Mob - O;Niger-Niamey - O;NIUE - SMS;Niue Island - O;Niue Island Fixed;Niue Island-Alofi - O;Niue Island-Mob - O;Norfolk Island - O;Norfolk Island Fixed;Norfolk Island-Kingston - O;Norfolk Island-Mob - O;North Cyprus - O;North Cyprus-Mob - O;Northern Marianas - O;Northern Marianas-Mob - O;Northern Marianas-Saipan - O;Norway - O;NORWAY - SMS;Norway Fixed;Norway Fixed Special Services;Norway Mobile;Norway Netcom Mobile;Norway Telenor Mobile;Norway-Mob - O;Norway-Oslo - O;NPCountry1-Dest12;NPCountry1-Dest9;Oman - O;OMAN - SMS;Oman Fixed;Oman Mobile;Oman Nawras Mobile;Oman-FP - O;Oman-Mob - O;Oman-Muscat - O;Pakistan - O;PAKISTAN - SMS;Pakistan Fixed;Pakistan Islamabad Fixed;Pakistan Karachi Fixed;Pakistan Lahore Fixed;Pakistan M-Link Mobile;Pakistan Mobile;Pakistan Telenor Mobile;Pakistan-FP - O;Pakistan-Islamabad - O;Pakistan-Mob - O;Palau - O;PALAU - SMS;Palau Fixed;Palau Mobile;Palau PNCC Mobile;Palau-FP - O;Palau-Koror - O;Palau-Mob - O;Palestine - O;Palestine 970 Mobile;Palestine 972 Fixed;Palestine 972 Mobile;Palestine Fixed;Palestine-Mob - O;Panama - O;PANAMA - SMS;Panama City Fixed;Panama Claro Mobile;Panama Colon Fixed;Panama Digicel Mobile;Panama Fixed;Panama Fixed Telecarrier;Panama Mobile;Panama Movistar Mobile;Panama Premium Fixed;Panama-Mob - O;Panama-Panama (City) - O;Papua New Guinea - O;PAPUA NEW GUINEA - SMS;Papua New Guinea Fixed;Papua New Guinea-Mob - O;Papua New Guinea-Port Moresby - O;Paraguay - O;PARAGUAY - SMS;Paraguay Asuncion Fixed;Paraguay Claro Mobile;Paraguay Fixed;Paraguay Personal Mobile;Paraguay Tigo Mobile;Paraguay VOX Mobile;Paraguay-Asunci?n - O;Paraguay-Mob - O;PERU;Peru - O;PERU - SMS;PERU (LIMA);Peru Country Wide Mobile;Peru High Cost;Peru Lima Fixed;Peru Mobile America Movil;Peru Mobile Nextel;Peru Mobile Telefonica;Peru Mobile Tesam;PERU MOV (CLARO);PERU MOV (MOVISTAR);PERU MOV (NEXTEL);PERU MOV (RESTO);Peru ROC Fixed;PERU RURAL;Peru Rural Fixed;Peru Virtual Movil;PERU ZONA 1;PERU ZONA 2;Peru-FP - O;Peru-Lima - O;Peru-Mob - O;PHILIPPINES - SMS;Philippines Bayantel Fixed;Philippines Digitel On-Net Fixed;Philippines EPTI Fixed;Philippines Fixed Roc;Philippines Fixed_SB;Philippines Globe Fixed;Philippines Globe Mobile;Philippines Globe Mobile_SB;Philippines IPRS;Philippines Mobile Other;Philippines Mobile Smart;Philippines Paptelco Fixed;Philippines Personal Numbers Fixed;Philippines Rest_SB;Philippines Sun Mobile;Philippines-FP - O;Philippines-Manila - O;Philippines-Mob - O;Poland - O;POLAND - SMS;Poland Era Mobile;Poland Fixed;Poland Fixed Non-Tp;Poland Mobile;Poland Mvno Mobile;Poland Orange Mobile;Poland P4 Mobile;Poland Plus Mobile;Poland Polsat Mobile;Poland Warsaw Fixed;Poland-FP - O;Poland-Mob - O;Poland-Warsaw - O;Portugal - O;PORTUGAL - SMS;Portugal Fixed;Portugal Mobile;Portugal Tmn Mobile;Portugal Vodafone Mobile;Portugal-Lisbon - O;Portugal-Mob - O;Puerto Rico - O;Puerto Rico-Mob - O;Puerto Rico-San Juan - O;QAAT Destination Updated;QAAT new Destination1;QAAT new Destination2;Qatar - O;QATAR - SMS;Qatar Fixed;Qatar Mobile;Qatar Vodafone Mobile;Qatar-Doha (Al-Dawhah) - O;Qatar-Mob - O;Resolve Error Testing - O;Reunion - O;Reunion Island Fixed;Reunion Island Mobile;Reunion-Mob - O;Reunion-Saint-Denis - O;Romania - O-Changed;ROMANIA - SMS;Romania Bucharest Fixed;Romania Cosmote Mobile;Romania Fixed Other;Romania MNVO Mobile;Romania Mobile;Romania Orange Mobile;Romania ROC Fixed;Romania Romtelecom Mobile;Romania Telemobil Mobile;Romania Vodafone Mobile;Romania-Bucharest - O;Romania-FP - O;Romania-Mob - O;RSDESTINATION;Russia - O;Russia - O Ported To Russia Fixed Zone 1;Russia Abkhazia A Mobile;Russia Abkhazia Aquafon Mobile;Russia Abkhazia Fixed;Russia Beeline Mobile;Russia Fixed Zone 1;Russia Fixed Zone 2;Russia Fixed Zone 3;Russia Fixed Zone 4;Russia Fixed Zone 5;Russia GlobalTel Mobile;Russia Megafone Mobile;Russia Metro Moscow Fixed;Russia Metro St. Petersburg Fixed;Russia Mobile;Russia Mts Mobile;Russia Rostelecom Mobile;Russia-FP - O;Russia-Mob - O;Russia-Moscow - O;Russia-Network;Rwanda - O;RWANDA - SMS;Rwanda Fixed;Rwanda-FP - O;Rwanda-Kigali - O;Rwanda-Mob - O;San Marino;San Marino - O;SAN MARINO - SMS;San Marino Mobile;San Marino Special Services;San Marino-Mob - O;San Marino-San Marino - O;Sao Tome &amp; Principe - O;Sao Tome &amp; Principe Fixed;Sao Tome &amp; Principe-Mob - O;Sao Tome &amp; Principe-Sao Tome - O;SAO TOME AND PRINCIPE - SMS;Saudi Arabia - O;SAUDI ARABIA - SMS;Saudi Arabia Aljawwal Mobile;Saudi Arabia Fixed;Saudi Arabia Lebara Mobile;Saudi Arabia Mobile;Saudi Arabia Mobily Mobile;Saudi Arabia Virgin Mobile;Saudi Arabia Zain Mobile;Saudi Arabia-Mob - O;Saudi Arabia-Riyadh - O;save test 2;save test 3;SB_UAT;Senegal - O;SENEGAL - SMS;Senegal Expresso Fixed;Senegal Mobile 1;Senegal Orange Mobile;Senegal Republic Fixed;Senegal Republic Mobile;Senegal Republic Mobile Tigo;Senegal-Dakar - O;Senegal-Mob - O;Serbia - O;SERBIA - SMS;Serbia Fixed;Serbia Mobile;Serbia Olo Fixed;Serbia Special Services;Serbia-Belgrade - O;Serbia-FP - O;Serbia-Mob - O;Seychelles - O;SEYCHELLES - SMS;Seychelles Island Fixed;Seychelles-FP - O;Seychelles-Mob - O;Seychelles-Victoria - O;Sierra Leone - O;SIERRA LEONE - SMS;Sierra Leone Fixed;Sierra Leone Mobile;Sierra Leone-FP - O;Sierra Leone-Freetown - O;Sierra Leone-Mob - O;Singapore - O;SINGAPORE - SMS;Singapore Fixed;Singapore Mobile;Singapore-Mob - O;SLDSR destn;Slovak Republic - O;Slovak Republic-Bratislava - O;Slovak Republic-Mob - O;SLOVAKIA - SMS;Slovakia Fixed;Slovakia Mobile Other;Slovakia Orange Mobile;Slovakia Telefonica Mobile;Slovakia Tmobile Mobile;Slovakia Vas Fixed;Slovenia - O;SLOVENIA - SMS;Slovenia Fixed;Slovenia Ipko Net Mobile;Slovenia Mobile;Slovenia T2 Mobile;Slovenia Tusmobile Mobile;Slovenia-Ljubljana - O;Slovenia-Mob - O;Solomon Islands - O;SOLOMON ISLANDS - SMS;Solomon Islands Fixed;Solomon Islands-Honiara - O;Solomon Islands-Mob - O;Somalia - O;Somalia Hormuud Mobile;Somalia ROC Fixed;Somalia-FP - O;Somalia-Mob - O;Somalia-Mogadishu - O;SOUTH AFRICA - SMS;South Africa Cell-C Mobile;South Africa Fixed;South Africa JHB Telkom Ported;South Africa Mobile;South Africa Mobile Neotel;South Africa Mtn Mobile;South Africa Telkom Mobile;South Africa Vng Fixed;South Africa Vodacom Mobile;South Africa-FP - O;South Africa-Mob - O;South Africa-Pretoria - O;South Sudan Fixed;South Sudan Gemtel Mobile;South Sudan Mobile;South Sudan Mtn Mobile;South Sudan Sudatel Mobile;South Sudan Vivacel Mobile;South Sudan Zain Mobitel Mobile;Spain - O;SPAIN - SMS;Spain Fixed;Spain Fixed Value Added Services;Spain Mobile Amena;Spain Mobile Movistar;Spain Mobile Other;Spain Mobile Vodafone;Spain Nomadic Service Fixed;Spain Voip Special Services Fixed;Spain-Madrid - O;Spain-Mob - O;Sri Lanka - O;SRI LANKA - SMS;Sri Lanka Airtel Mobile;Sri Lanka Dialog Fixed;Sri Lanka Dialog Mobile;Sri Lanka Etisalat Mobile;Sri Lanka Fixed;Sri Lanka Hutch Mobile;Sri Lanka Lankabell Fixed;Sri Lanka Mobile;Sri Lanka Mobitel Mobile;Sri Lanka Slt On Net Fixed;Sri Lanka Suntel Fixed;Sri Lanka-Colombo - O;Sri Lanka-Mob - O;sss;St Helena - O;St Helena-Jamestown - O;St Helena-Mob - O;St Kitts &amp; Nevis - O;St Kitts &amp; Nevis-Basseterre - O;St Kitts &amp; Nevis-Mob - O;St Kitts C&amp;W Mobile;St Kitts Fixed;St Kitts Mobile;St Lucia - O;St Lucia C&amp;W Mobile;St Lucia Fixed;St Lucia Mobile;St Lucia-Castries - O;St Lucia-Mob - O;St Maarten Fixed;St Maarten Mobile;St Pierre &amp; Miquelon - O;St Pierre &amp; Miquelon-FP - O;St Pierre &amp; Miquelon-Mob - O;St Pierre &amp; Miquelon-Saint-Pierre - O;St Vincent &amp; Grenadine - O;St Vincent &amp; Grenadine-FP - O;St Vincent &amp; Grenadine-Kingstown - O;St Vincent &amp; Grenadine-Mob - O;St Vincent C&amp;W Mobile;St Vincent Fixed;St Vincent Mobile;St. Helena (Incl. Tristan Da Cunha) Fixed;St. Maarten;St. Pierre &amp; Miquelon Fixed;St. Pierre &amp; Miquelon Mobile;Sudan - O;SUDAN - SMS;Sudan Canar Fixed;Sudan Fixed;Sudan Mobile;Sudan Mtn Mobile;Sudan Now Mobile;Sudan Zain Mobile;Sudan-FP - O;Sudan-Khartoum - O;Sudan-Mob - O;Suriname - O;SURINAME - SMS;Suriname Digicel Mobile;Suriname Fixed;Suriname Mobile;Suriname UNIQA Mobile;Suriname-Mob - O;Suriname-Paramaribo - O;Swaziland - O;SWAZILAND - SMS;Swaziland Fixed;Swaziland Mobile;Swaziland-Mbabane - O;Swaziland-Mob - O;Sweden - O;SWEDEN - SMS;Sweden Comviq Mobile;Sweden Fixed;Sweden Mobile;Sweden Personal Numbers Fixed;Sweden Special Shared Fixed;Sweden Telenor Mobile;Sweden Telia Mobile;Sweden-Mob - O;Sweden-Stockholm - O;Switzerland - O;SWITZERLAND - SMS;Switzerland Fixed;Switzerland Lycatel Mobile;Switzerland Mobile Other;Switzerland Orange Mobile;Switzerland Sunrise Mobile;Switzerland Swisscom Mobile;Switzerland-Bern - O;Switzerland-Mob - O;Syria - O;Syria-Damascus - O;Syria-FP - O;Syria-Mob - O;Syrian Arab Republic Fixed;Syrian Arab Republic Mobile;Taiwam Mobile_SB;Taiwan - O;Taiwan APT Mobile;Taiwan Chti Mobile;Taiwan Fixed;Taiwan Kao Hsiung Mobile;Taiwan Mobile Other;Taiwan Mobile Pager;Taiwan Special Fixed;Taiwan Vibo Mobile;Taiwan-FP - O;Taiwan-Mob - O;Taiwan-Taipei - O;Tajikistan - O;TAJIKISTAN - SMS;Tajikistan Fixed;Tajikistan Special Services;Tajikistan-Dushanbe - O;Tajikistan-FP - O;Tajikistan-Mob - O;Tanzania - O;TANZANIA - SMS;Tanzania Fixed;Tanzania Mobile;Tanzania Premium Service;Tanzania-Dar es Salaam - O;Tanzania-Mob - O;Tariq_Pakistan_Mobilink;TARIQ_PAKISTAN_TEST - SMS;TCountry-2;test1234;TESTCOUNTRY-1 - SMS;TESTCOUNTRY-2 - SMS;TESTCOUNTRY-SMS - SMS;testdest;testdest1;TestDestination-SMS;TestDestn-SMS-2;TestingIssue5040;TestNew;TestNewAru;TestNewDestination8;TestNewDestn-1;TestNewDestn-2;TestNewRef;testNewRefDestn&amp;&amp;3;TestRefDestn-4:4refdestn;Test-SMS;TestSMS-5TestSMS-5TestSMS-5TestSMS-5TestSMS-5TestSMS-5TestSM;Testttt;Thailand - O;THAILAND - SMS;Thailand ACES Mobile;Thailand AWN Mobile;Thailand Bangkok;Thailand Fixed;Thailand Mobile;Thailand VOIP FIXED;Thailand-Bangkok - O;Thailand-Mob - O;Togo - O;TOGO - SMS;Togo Fixed;Togo-Lomé - O;Togo-Mob - O;Tokelau - O;Tokelau-Mob - O;Tonga - O;TONGA - SMS;Tonga Islands Fixed;Tonga-FP - O;Tonga-Mob - O;Tonga-Nuku'alofa - O;Trinidad &amp; Tobago - O;Trinidad &amp; Tobago Fixed;Trinidad &amp; Tobago Mobile;TRINIDAD AND TOBAGO - SMS;Trinidad Digicel Mobile;TRINIDAD_AND_TOBAGO (Carribean);TRINIDAD_AND_TOBAGO_CELLULAR_DIGICEL;TRINIDAD_AND_TOBAGO-Cell (Carribean);Tunisia - O;TUNISIA - SMS;Tunisia Fixed;Tunisia Mobile;Tunisia Ooredoo Mobile;Tunisia Orange Fixed;Tunisia Orange Mobile;Tunisia Vas Codes Fixed;Tunisia-FP - O;Tunisia-Mob - O;Tunisia-Tunis - O;Turkey - Cities;Turkey - O;TURKEY - SMS;Turkey 444 Service Fixed;Turkey Ankara Fixed;Turkey Fixed;Turkey Istanbul Fixed;Turkey Mobile;Turkey Mobile Avea;Turkey Nomadic Service Fixed;Turkey North Cyprus Fixed;Turkey Telsim Mobile;Turkey Trnc Mobile;Turkey Turkcell Mobile;Turkey-Ankara - O;Turkey-Mob - O;Turkmenistan - O;TURKMENISTAN - SMS;Turkmenistan Fixed;Turkmenistan Mobile;Turkmenistan-Ashgabat - O;Turkmenistan-Mob - O;Turks &amp; Caicos Digicel Mobile;Turks &amp; Caicos Islands - O;Turks &amp; Caicos Islands Fixed;Turks &amp; Caicos Islands Mobile;Turks &amp; Caicos Islands-Grand Turk - O;Turks &amp; Caicos Islands-Mob - O;TURKS AND CAICOS ISLANDS - SMS;Tuvalu - O;TUVALU - SMS;Tuvalu Fixed;Tuvalu-Funafuti - O;Tuvalu-Mob - O;UAT_OZ_MyDestination;UAT_OZ2_MyDestination;UAT_PM_MyDestination;UAT_XXX_MyDestination;UAT2_OZ_MyDestination;Uganda - O;UGANDA - SMS;Uganda Belgacom Mobile;Uganda Fixed;Uganda Itel Mobile;Uganda Mobile;Uganda Mtn Mobile;Uganda Utl Mobile;Uganda-FP - O;Uganda-Kampala - O;Uganda-Mob - O;UK Mobile Personal Numbering Svc;UK Wide Fixed;Ukraine - Kharkov - O;Ukraine - O;UKRAINE - SMS;Ukraine Astelit Mobile;Ukraine Fixed;Ukraine Golden Telecom Mobile;Ukraine Kyivstar Mobile;Ukraine Mobile;Ukraine Telesystems People Premium;Ukraine TriMobile;Ukraine Umc Mobile;Ukraine-FP - O;Ukraine-Kiev - O;Ukraine-Mob - O;United Arab Emirates - O;UNITED ARAB EMIRATES - SMS;United Arab Emirates DU Mobile;United Arab Emirates Fixed;United Arab Emirates Mobile;United Arab Emirates-Abu Dhabi - O;United Arab Emirates-FP - O;United Arab Emirates-Mob - O;United Kingdom - O;UNITED KINGDOM - SMS;United Kingdom Fixed;United Kingdom Fixed Other;United Kingdom H3G Mobile;United Kingdom Lyca Mobile;United Kingdom Mmo2 Mobile;United Kingdom Number Translation Service Fixed;United Kingdom Orange Mobile;United Kingdom Other Mobile;United Kingdom T-Mobile;United Kingdom Vodafone Mobile;United Kingdom-London - O;United Kingdom-Mob - O;United States;Uruguay - O;URUGUAY - SMS;Uruguay Ancel Mobile;Uruguay CTI Mobile;Uruguay Fixed;Uruguay Mobile;Uruguay Montevideo Fixed;Uruguay-Mob - O;Uruguay-Montevideo - O;USA - O;USA - SMS;USA-Band-2-3;USA-Comc-2-3;USA-Comc-Band-3;USA-ITFS;USA-ITFS-2;USA-SpecialDestination;Uzbekistan - O;UZBEKISTAN - SMS;Uzbekistan Fixed;Uzbekistan Mobile;Uzbekistan Tashkent;Uzbekistan-Mob - O;Uzbekistan-Tashkent - O;VanatauDest - O;Vanuatu - O;VANUATU - SMS;Vanuatu Fixed;Vanuatu-FP - O;Vanuatu-Mob - O;Vanuatu-Port-Vila - O;Vatican City - O;Vatican City-FP - O;Vatican City-Mob - O;Vatican City-Vatican City - O;Venezuela - O;VENEZUELA - SMS;Venezuela Caracas Fixed;Venezuela Digitel Mobile;Venezuela Fixed;Venezuela Maracaibo Fixed;Venezuela Mobile;Venezuela Movilnet Mobile;Venezuela Movistar Mobile;Venezuela Tesam Mobile;Venezuela Valencia Fixed;Venezuela-Caracas - O;Venezuela-FP - O;Venezuela-Mob - O;Vietnam - O;VIETNAM - SMS;Vietnam Danang Fixed;Vietnam Fixed;Vietnam GTEL Mobile;Vietnam Hanoi Fixed;Vietnam Hanoi Telecom Mobile;Vietnam Ho Chi Minh Fixed;Vietnam Mobile;Vietnam Premium Service Fixed;Vietnam VAS1;Vietnam VAS2;Vietnam Viettel Mobile;Vietnam Vinaphone Mobile;Vietnam VSAT Fixed;Vietnam VSAT Mobile;Vietnam-Hanoi - O;Vietnam-Mob - O;Wake Island - O;Wake Island-Mob - O;Wallis &amp; Fortuna Islands Fixed;Wallis &amp; Futuna Islands - O;Wallis &amp; Futuna Islands-Mata-Utu - O;Wallis &amp; Futuna Islands-Mob - O;Western Samoa - O;Western Samoa Fixed;Western Samoa Mobile;Western Samoa-Apia - O;Western Samoa-Mob - O;Wonderland ROC;Yemen - O;YEMEN - SMS;Yemen Fixed;Yemen Mobile;Yemen Sabafone Mobile;Yemen-FP - O;Yemen-Mob - O;Yemen-Sanaa - O;Zaire - O;Zaire-FP - O;Zaire-Kinshasa - O;Zaire-Mob - O;Zambia - O;ZAMBIA - SMS;Zambia Fixed;Zambia Mobile;Zambia Mtn Mobile;ZAMBIA-1;Zambia-FP - O;Zambia-Lusaka - O;Zambia-Mob - O;Zambia-tlx-phtest;Zimbabwe - O;ZIMBABWE - SMS;Zimbabwe Econet Mobile;Zimbabwe Fixed;Zimbabwe Other Mobile;Zimbabwe Telone Mobile;Zimbabwe VOIP Mobile;ZIMBABWE-1;Zimbabwe-Harare - O;Zimbabwe-Mob - O&quot;&lt;/td&gt;																	   &lt;/tr&gt;																	   &lt;tr&gt;																	   &lt;td class='BK HB'&gt;Expected value&lt;/td&gt;																	   &lt;td&gt;&quot;Afghanistan - O&quot;&lt;/td&gt;																	   &lt;/tr&gt;																	   &lt;tr&gt;																	   &lt;td class=&quot;BK HB&quot;&gt;&lt;SPAN CLASS='Bold'&gt;Condition&lt;/SPAN&gt;&lt;/td&gt;																	   &lt;td&gt;cmpNotContains&lt;/td&gt;																	   &lt;/tr&gt;																	   &lt;tr&gt;																	   &lt;td class=&quot;BK HB&quot;&gt;&lt;SPAN CLASS='Bold'&gt;Case-sensitive&lt;/SPAN&gt;&lt;/td&gt;																	   &lt;td&gt;true&lt;/td&gt;																	   &lt;/tr&gt;																	   &lt;/tbody&gt;																	   &lt;/table&gt;																	   																	   &lt;/body&gt;																	   &lt;/html&gt;"/>
+			<Prp name="date" type="D" value="42387.5236091319"/>
+			<Prp name="id" type="I" value="105"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="-1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="unit id" type="I" value="5"/>
+			<Prp name="type" type="I" value="7"/>
+			<Prp name="line no" type="I" value="95"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="The property checkpoint passed (the wItemList does not contain the substring &quot;Afghanistan - O&quot;)."/>
+			<Prp name="priority" type="I" value="300"/>
+		</Node>
+		<Node name="message 22">
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value="A click at point (25, 8) with no key pressed.&#xA;&#xA;Tested object:&#xA;Sys.Browser(&quot;iexplore&quot;).Page(&quot;https://hqqa80vm31/iXConnect/lgx_Engine/lgx_Frame.aspx?lgx_WindowID=Frame&amp;Linkparams=%5bLinkParams+lgx_ID%3d\'Default\'+%2f%5d&quot;).Frame(&quot;Header&quot;).Table(0).Cell(0, 0).TextNode(&quot;C2_mHome&quot;)"/>
+			<Prp name="date" type="D" value="42387.5169175347"/>
+			<Prp name="id" type="I" value="22"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="unit id" type="I" value="6"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="line no" type="I" value="57"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="priority" type="I" value="300"/>
+		</Node>
+		<Node name="child data"/>
+		<Node name="message 94">
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value="A click at point (97, 11) with no key pressed.&#xA;&#xA;Tested object:&#xA;Sys.Browser(&quot;iexplore&quot;).Page(&quot;https://hqqa80vm31/iXConnect/lgx_Engine/lgx_Frame.aspx?&amp;LinkParams=%5BLinkParams%20lgx_ID%3D\'OnlyDetailVBNet\'%20%20DetailID%3D\'App%2FCarrierBlocking\'%20%20%2F%5D&quot;).Frame(&quot;Detail&quot;).Panel(3).Panel(&quot;newWorkOrderWorkOrderType_list&quot;).TextNode(&quot;newWorkOrderWorkOrderType_listbox&quot;).TextNode(0)"/>
+			<Prp name="date" type="D" value="42387.5226646296"/>
+			<Prp name="id" type="I" value="94"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="unit id" type="I" value="4"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="line no" type="I" value="123"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="priority" type="I" value="300"/>
+		</Node>
+		<Node name="message 85">
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value="A click at point (22, 12) with no key pressed.&#xA;&#xA;Tested object:&#xA;Sys.Browser(&quot;iexplore&quot;).Page(&quot;https://hqqa80vm31/iXConnect/lgx_Engine/lgx_Frame.aspx?&amp;LinkParams=%5BLinkParams%20lgx_ID%3D\'OnlyDetailVBNet\'%20%20DetailID%3D\'App%2FCarrierBlocking\'%20%20%2F%5D&quot;).Frame(&quot;Detail&quot;).Panel(1).Panel(&quot;NewWorkOrderWindow&quot;).Panel(&quot;newCbWorkOrderDiv&quot;).Form(0).Panel(5).Button(&quot;btnSaveNewWorkOrder&quot;)"/>
+			<Prp name="date" type="D" value="42387.5222481829"/>
+			<Prp name="id" type="I" value="85"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="unit id" type="I" value="4"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="line no" type="I" value="132"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="priority" type="I" value="300"/>
+		</Node>
+		<Node name="message 65">
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="date" type="D" value="42387.5214049306"/>
+			<Prp name="id" type="I" value="65"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="unit id" type="I" value="5"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="line no" type="I" value="70"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="The property value &quot;true&quot; equals the baseline value &quot;true&quot;."/>
+			<Prp name="priority" type="I" value="300"/>
+		</Node>
+		<Node name="message 99">
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value="A click at point (67, 12) with no key pressed.&#xA;&#xA;Tested object:&#xA;Sys.Browser(&quot;iexplore&quot;).Page(&quot;https://hqqa80vm31/iXConnect/lgx_Engine/lgx_Frame.aspx?&amp;LinkParams=%5BLinkParams%20lgx_ID%3D\'OnlyDetailVBNet\'%20%20DetailID%3D\'App%2FCarrierBlocking\'%20%20%2F%5D&quot;).Frame(&quot;Detail&quot;).Panel(&quot;mainBody&quot;).Section(0).Panel(&quot;page_content&quot;).Panel(0).Panel(&quot;CarrierBlockingTabStrip&quot;).Panel(&quot;CarrierBlockingTabStrip_1&quot;).Panel(&quot;CarrierBlockingWorkOrdersDiv&quot;).Panel(&quot;carrierBlockingDiv&quot;).Panel(&quot;CbGridDiv&quot;).Panel(&quot;CarrierBlockingWorkOrdersGrd&quot;).Panel(0).Panel(&quot;carrierDestBlockToolbar&quot;).Panel(0).Link(&quot;CreateWorkOrder&quot;)"/>
+			<Prp name="date" type="D" value="42387.5231459607"/>
+			<Prp name="id" type="I" value="99"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="unit id" type="I" value="4"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="line no" type="I" value="151"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="priority" type="I" value="300"/>
+		</Node>
+		<Node name="message 1">
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value="&lt;html&gt;&lt;head&gt;&lt;style&gt;td{font-family: Courier New, Consolas, Segoe UI; font-size : 14;}&lt;/style&gt;&lt;/head&gt;											  &lt;body&gt;											  &lt;table cellspacing=&quot;0&quot; cellpadding=&quot;0&quot;&gt;											  &lt;tr&gt;&lt;td&gt;&lt;b&gt;Browser:&lt;/b&gt;&lt;/td&gt;&lt;td&gt;Microsoft Internet Explorer ver.10.0.9200.16611 (x86)&lt;/td&gt;&lt;/tr&gt;											  &lt;tr&gt;&lt;td&gt;&lt;b&gt;Executable:&lt;/b&gt;&lt;/td&gt;&lt;td&gt;C:\Program Files\Internet Explorer\IEXPLORE.EXE&lt;/td&gt;&lt;/tr&gt;											  &lt;tr&gt;&lt;td style=&quot;padding-right: 8px;&quot;&gt;&lt;b&gt;Command-line args:&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;/td&gt;&lt;/tr&gt;											  &lt;tr&gt;&lt;tr&gt;&lt;td&gt;&lt;b&gt;URL:&lt;/b&gt;&lt;/td&gt;&lt;td&gt;https://hqqa80vm31/iXHome&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/body&gt;&lt;/html&gt;"/>
+			<Prp name="date" type="D" value="42387.515801794"/>
+			<Prp name="id" type="I" value="1"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="-1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="line no" type="I" value="17"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="Microsoft Internet Explorer was launched."/>
+			<Prp name="priority" type="I" value="300"/>
+		</Node>
+		<Node name="message 9">
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value="A click at point (50, 6) with no key pressed.&#xA;&#xA;Tested object:&#xA;Sys.Browser(&quot;iexplore&quot;).PagePopup(0).Panel(0).Panel(0).TextNode(0)"/>
+			<Prp name="date" type="D" value="42387.5161074653"/>
+			<Prp name="id" type="I" value="9"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="unit id" type="I" value="3"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="line no" type="I" value="83"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="priority" type="I" value="300"/>
+		</Node>
+		<Node name="message 17">
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value="A click at point (61, 10) with no key pressed.&#xA;&#xA;Tested object:&#xA;Sys.Browser(&quot;iexplore&quot;).Page(&quot;https://hqqa80vm31/iXHome/lgx_Engine/lgx_Frame.aspx?lgx_WindowID=Frame&amp;Linkparams=%5bLinkParams+lgx_ID%3d\'Default\'+%2f%5d&quot;).Frame(&quot;Modules&quot;).Panel(&quot;rConnect&quot;).Image(&quot;rConnect_iXConnect_iXConnect&quot;)"/>
+			<Prp name="date" type="D" value="42387.5167612847"/>
+			<Prp name="id" type="I" value="17"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="unit id" type="I" value="2"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="line no" type="I" value="25"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="priority" type="I" value="300"/>
+		</Node>
+		<Node name="message 72">
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="date" type="D" value="42387.5215684722"/>
+			<Prp name="id" type="I" value="72"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="unit id" type="I" value="5"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="line no" type="I" value="80"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="The property value &quot;Status&quot; equals the baseline value &quot;Status&quot;."/>
+			<Prp name="priority" type="I" value="300"/>
+		</Node>
+		<Node name="item 0">
+			<Prp name="line no" type="I" value="107"/>
+			<Prp name="stacktext" type="S" value="VerifySearchWorkOrder"/>
+			<Prp name="unit id" type="I" value="5"/>
+		</Node>
+		<Node name="message 70">
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="date" type="D" value="42387.5215684722"/>
+			<Prp name="id" type="I" value="70"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="unit id" type="I" value="5"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="line no" type="I" value="78"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="The property value &quot;Work Order Type&quot; equals the baseline value &quot;Work Order Type&quot;."/>
+			<Prp name="priority" type="I" value="300"/>
+		</Node>
+		<Node name="message 100">
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value="'Armenia-PTT' was sent as a keyboard input to the following window or control.&#xA;&#xA;Tested object:&#xA;Sys.Browser(&quot;iexplore&quot;).Page(&quot;https://hqqa80vm31/iXConnect/lgx_Engine/lgx_Frame.aspx?&amp;LinkParams=%5BLinkParams%20lgx_ID%3D\'OnlyDetailVBNet\'%20%20DetailID%3D\'App%2FCarrierBlocking\'%20%20%2F%5D&quot;).Frame(&quot;Detail&quot;).Panel(1).Panel(&quot;NewWorkOrderWindow&quot;).Panel(&quot;newCbWorkOrderDiv&quot;).Form(0).Panel(1).Panel(0).Panel(0).Panel(0).Textbox(&quot;newWorkOrderCarriers&quot;)"/>
+			<Prp name="date" type="D" value="42387.5231942824"/>
+			<Prp name="id" type="I" value="100"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="unit id" type="I" value="4"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="line no" type="I" value="153"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="Keyboard input."/>
+			<Prp name="priority" type="I" value="300"/>
+		</Node>
+		<Node name="message 90">
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value="A click at point (67, 12) with no key pressed.&#xA;&#xA;Tested object:&#xA;Sys.Browser(&quot;iexplore&quot;).Page(&quot;https://hqqa80vm31/iXConnect/lgx_Engine/lgx_Frame.aspx?&amp;LinkParams=%5BLinkParams%20lgx_ID%3D\'OnlyDetailVBNet\'%20%20DetailID%3D\'App%2FCarrierBlocking\'%20%20%2F%5D&quot;).Frame(&quot;Detail&quot;).Panel(&quot;mainBody&quot;).Section(0).Panel(&quot;page_content&quot;).Panel(0).Panel(&quot;CarrierBlockingTabStrip&quot;).Panel(&quot;CarrierBlockingTabStrip_1&quot;).Panel(&quot;CarrierBlockingWorkOrdersDiv&quot;).Panel(&quot;carrierBlockingDiv&quot;).Panel(&quot;CbGridDiv&quot;).Panel(&quot;CarrierBlockingWorkOrdersGrd&quot;).Panel(0).Panel(&quot;carrierDestBlockToolbar&quot;).Panel(0).Link(&quot;CreateWorkOrder&quot;)"/>
+			<Prp name="date" type="D" value="42387.5225061806"/>
+			<Prp name="id" type="I" value="90"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="unit id" type="I" value="4"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="line no" type="I" value="112"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="priority" type="I" value="300"/>
+		</Node>
+		<Node name="stack"/>
+		<Node name="message 102">
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value="A click at point (100, 13) with no key pressed.&#xA;&#xA;Tested object:&#xA;Sys.Browser(&quot;iexplore&quot;).Page(&quot;https://hqqa80vm31/iXConnect/lgx_Engine/lgx_Frame.aspx?&amp;LinkParams=%5BLinkParams%20lgx_ID%3D\'OnlyDetailVBNet\'%20%20DetailID%3D\'App%2FCarrierBlocking\'%20%20%2F%5D&quot;).Frame(&quot;Detail&quot;).Panel(1).Panel(&quot;NewWorkOrderWindow&quot;).Panel(&quot;newCbWorkOrderDiv&quot;).Form(0).Panel(1).Panel(1).Panel(0).Panel(0).TextNode(2)"/>
+			<Prp name="date" type="D" value="42387.5232644792"/>
+			<Prp name="id" type="I" value="102"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="unit id" type="I" value="4"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="line no" type="I" value="158"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="priority" type="I" value="300"/>
+		</Node>
+		<Node name="message 15">
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value="A click at point (44, 13) with no key pressed.&#xA;&#xA;Tested object:&#xA;Sys.Browser(&quot;iexplore&quot;).Page(&quot;https://hqqa80vm31/iXAdmin/lgx_Engine/lgx_Frame.aspx?&amp;LinkParams=%5BLinkParams%20lgx_ID%3D\'WideDetail\'%20%20FromDate%3D\'%40Data.DefaultDate.FromDate~\'%20ToDate%3D\'%40Data.DefaultDate.ToDate~\'%20lgx_DetailID%3D\'dtlConfig\'%20FirstTime%3D\'1\'%20ConfigType%3D\'2\'%20%20%2F%5D&quot;).Alert.Button(&quot;OK&quot;)"/>
+			<Prp name="date" type="D" value="42387.5166473958"/>
+			<Prp name="id" type="I" value="15"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="unit id" type="I" value="3"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="line no" type="I" value="107"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="priority" type="I" value="300"/>
+		</Node>
+		<Node name="message 101">
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value="A click at point (97, 12) with no key pressed.&#xA;&#xA;Tested object:&#xA;Sys.Browser(&quot;iexplore&quot;).Page(&quot;https://hqqa80vm31/iXConnect/lgx_Engine/lgx_Frame.aspx?&amp;LinkParams=%5BLinkParams%20lgx_ID%3D\'OnlyDetailVBNet\'%20%20DetailID%3D\'App%2FCarrierBlocking\'%20%20%2F%5D&quot;).Frame(&quot;Detail&quot;).Panel(2).Panel(&quot;newWorkOrderCarriers_list&quot;).TextNode(&quot;newWorkOrderCarriers_listbox&quot;)"/>
+			<Prp name="date" type="D" value="42387.5232281944"/>
+			<Prp name="id" type="I" value="101"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="unit id" type="I" value="4"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="line no" type="I" value="155"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="priority" type="I" value="300"/>
+		</Node>
+		<Node name="message 67">
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value="A click at point (45, 8) with no key pressed.&#xA;&#xA;Tested object:&#xA;Sys.Browser(&quot;iexplore&quot;).Page(&quot;https://hqqa80vm31/iXConnect/lgx_Engine/lgx_Frame.aspx?&amp;LinkParams=%5BLinkParams%20lgx_ID%3D\'OnlyDetailVBNet\'%20%20DetailID%3D\'App%2FCarrierBlocking\'%20%20%2F%5D&quot;).Frame(&quot;Header&quot;).Table(0).Cell(0, 0).TextNode(&quot;C2_mDestination&quot;)"/>
+			<Prp name="date" type="D" value="42387.5214188194"/>
+			<Prp name="id" type="I" value="67"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="unit id" type="I" value="4"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="line no" type="I" value="15"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="priority" type="I" value="300"/>
+		</Node>
+		<Node name="message 26">
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value="Aliases.browser.Page(&quot;https://hqqa80vm31/iXAdmin/lgx_Engine/lgx_Frame.aspx?&amp;LinkParams=%5BLinkParams%20lgx_ID%3D\'WideDetail\'%20%20FromDate%3D\'%40Data.DefaultDate.FromDate~\'%20ToDate%3D\'%40Data.DefaultDate.ToDate~\'%20lgx_DetailID%3D\'dtlConfig\'%20FirstTime%3D\'1\'%20ConfigType%3D\'2\'%20%20%2F%5D&quot;).Frame(&quot;Detail&quot;).Panel(0).Panel(&quot;lgx_FilterDiv&quot;).Form(&quot;frmFilter&quot;).Panel(&quot;rScope&quot;).Select(&quot;rScope_Scope&quot;)"/>
+			<Prp name="date" type="D" value="42387.5173993634"/>
+			<Prp name="id" type="I" value="26"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="unit id" type="I" value="3"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="line no" type="I" value="86"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="The combo box item 'iXConnect' was selected."/>
+			<Prp name="priority" type="I" value="300"/>
+		</Node>
+		<Node name="message 88">
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value="A click at point (45, 8) with no key pressed.&#xA;&#xA;Tested object:&#xA;Sys.Browser(&quot;iexplore&quot;).Page(&quot;https://hqqa80vm31/iXConnect/lgx_Engine/lgx_Frame.aspx?&amp;LinkParams=%5BLinkParams%20lgx_ID%3D\'OnlyDetailVBNet\'%20%20DetailID%3D\'App%2FCarrierBlocking\'%20%20%2F%5D&quot;).Frame(&quot;Header&quot;).Table(0).Cell(0, 0).TextNode(&quot;C2_mDestination&quot;)"/>
+			<Prp name="date" type="D" value="42387.5223639931"/>
+			<Prp name="id" type="I" value="88"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="unit id" type="I" value="4"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="line no" type="I" value="15"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="priority" type="I" value="300"/>
+		</Node>
+		<Node name="message 12">
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value="Aliases.browser.Page(&quot;https://hqqa80vm31/iXAdmin/lgx_Engine/lgx_Frame.aspx?&amp;LinkParams=%5BLinkParams%20lgx_ID%3D\'WideDetail\'%20%20FromDate%3D\'%40Data.DefaultDate.FromDate~\'%20ToDate%3D\'%40Data.DefaultDate.ToDate~\'%20lgx_DetailID%3D\'dtlConfig\'%20FirstTime%3D\'1\'%20ConfigType%3D\'2\'%20%20%2F%5D&quot;).Frame(&quot;Detail&quot;).Panel(0).Table(&quot;MRFConfig&quot;).Cell(15, 4).Textbox(&quot;MRFConfig_cConfigParamValue8_ConfigParamValue&quot;)"/>
+			<Prp name="date" type="D" value="42387.5163999421"/>
+			<Prp name="id" type="I" value="12"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="unit id" type="I" value="3"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="line no" type="I" value="103"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="The text '' was entered in the text editor."/>
+			<Prp name="priority" type="I" value="300"/>
+		</Node>
+		<Node name="message 36">
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="date" type="D" value="42387.5181897569"/>
+			<Prp name="id" type="I" value="36"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="unit id" type="I" value="5"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="line no" type="I" value="31"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="The property value &quot;Carrier Destination Blocking&quot; equals the baseline value &quot;Carrier Destination Blocking&quot;."/>
+			<Prp name="priority" type="I" value="300"/>
+		</Node>
+		<Node name="message 114">
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value="'ARM001Block1/5/2016001' was sent as a keyboard input to the following window or control.&#xA;&#xA;Tested object:&#xA;Sys.Browser(&quot;iexplore&quot;).Page(&quot;https://hqqa80vm31/iXConnect/lgx_Engine/lgx_Frame.aspx?&amp;LinkParams=%5BLinkParams%20lgx_ID%3D\'OnlyDetailVBNet\'%20%20DetailID%3D\'App%2FCarrierBlocking\'%20%20%2F%5D&quot;).Frame(&quot;Detail&quot;).Panel(&quot;mainBody&quot;).Section(0).Panel(&quot;page_content&quot;).Panel(0).Panel(&quot;CarrierBlockingTabStrip&quot;).Panel(&quot;CarrierBlockingTabStrip_1&quot;).Panel(&quot;CarrierBlockingWorkOrdersDiv&quot;).Form(&quot;dvbasicCarrierBlockingSearchForm&quot;).Panel(0).Panel(0).Panel(2).Panel(0).Panel(0).Panel(0).Textbox(0)"/>
+			<Prp name="date" type="D" value="42387.5240726968"/>
+			<Prp name="id" type="I" value="114"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="unit id" type="I" value="4"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="line no" type="I" value="204"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="Keyboard input."/>
+			<Prp name="priority" type="I" value="300"/>
+		</Node>
+		<Node name="message 63">
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="date" type="D" value="42387.5214049306"/>
+			<Prp name="id" type="I" value="63"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="unit id" type="I" value="5"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="line no" type="I" value="68"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="The property value &quot;true&quot; equals the baseline value &quot;true&quot;."/>
+			<Prp name="priority" type="I" value="300"/>
+		</Node>
+		<Node name="message 80">
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value="A click at point (97, 12) with no key pressed.&#xA;&#xA;Tested object:&#xA;Sys.Browser(&quot;iexplore&quot;).Page(&quot;https://hqqa80vm31/iXConnect/lgx_Engine/lgx_Frame.aspx?&amp;LinkParams=%5BLinkParams%20lgx_ID%3D\'OnlyDetailVBNet\'%20%20DetailID%3D\'App%2FCarrierBlocking\'%20%20%2F%5D&quot;).Frame(&quot;Detail&quot;).Panel(2).Panel(&quot;newWorkOrderCarriers_list&quot;).TextNode(&quot;newWorkOrderCarriers_listbox&quot;)"/>
+			<Prp name="date" type="D" value="42387.5217755324"/>
+			<Prp name="id" type="I" value="80"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="unit id" type="I" value="4"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="line no" type="I" value="116"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="priority" type="I" value="300"/>
+		</Node>
+		<Node name="message 46">
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value="'[Enter]' was sent as a keyboard input to the following window or control.&#xA;&#xA;Tested object:&#xA;Sys.Browser(&quot;iexplore&quot;).Page(&quot;https://hqqa80vm31/iXAdmin/lgx_Engine/lgx_Frame.aspx?&amp;LinkParams=%5BLinkParams%20lgx_ID%3D\'Default\'%20%20lgxListID%3D\'\'%20lgx_ListID%3D\'lstProfile\'%20ActiveStatusID%3D\'1\'%20%20%2F%5D&quot;).Frame(&quot;Detail&quot;).Panel(0).Panel(&quot;lgx_FilterDiv&quot;).Form(&quot;frmFilter&quot;).Panel(&quot;rStatus&quot;).Select(&quot;rStatus_ApplicationID&quot;)"/>
+			<Prp name="date" type="D" value="42387.5190857176"/>
+			<Prp name="id" type="I" value="46"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="unit id" type="I" value="3"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="line no" type="I" value="55"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="Keyboard input."/>
+			<Prp name="priority" type="I" value="300"/>
+		</Node>
+		<Node name="message 50">
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="date" type="D" value="42387.5204943982"/>
+			<Prp name="id" type="I" value="50"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="unit id" type="I" value="5"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="line no" type="I" value="48"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="The property value &quot;iXConnect - Carrier Destination Blocking Viewer&quot; equals the baseline value &quot;iXConnect - Carrier Destination Blocking Viewer&quot;."/>
+			<Prp name="priority" type="I" value="300"/>
+		</Node>
+		<Node name="message 27">
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value="'[Enter]' was sent as a keyboard input to the following window or control.&#xA;&#xA;Tested object:&#xA;Sys.Browser(&quot;iexplore&quot;).Page(&quot;https://hqqa80vm31/iXAdmin/lgx_Engine/lgx_Frame.aspx?&amp;LinkParams=%5BLinkParams%20lgx_ID%3D\'WideDetail\'%20%20FromDate%3D\'%40Data.DefaultDate.FromDate~\'%20ToDate%3D\'%40Data.DefaultDate.ToDate~\'%20lgx_DetailID%3D\'dtlConfig\'%20FirstTime%3D\'1\'%20ConfigType%3D\'2\'%20%20%2F%5D&quot;).Frame(&quot;Detail&quot;).Panel(0).Panel(&quot;lgx_FilterDiv&quot;).Form(&quot;frmFilter&quot;).Panel(&quot;rScope&quot;).Select(&quot;rScope_Scope&quot;)"/>
+			<Prp name="date" type="D" value="42387.5174000579"/>
+			<Prp name="id" type="I" value="27"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="unit id" type="I" value="3"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="line no" type="I" value="87"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="Keyboard input."/>
+			<Prp name="priority" type="I" value="300"/>
+		</Node>
+		<Node name="message 86">
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value="A click at point (16, 12) with no key pressed.&#xA;&#xA;Tested object:&#xA;Sys.Browser(&quot;iexplore&quot;).Page(&quot;https://hqqa80vm31/iXConnect/lgx_Engine/lgx_Frame.aspx?&amp;LinkParams=%5BLinkParams%20lgx_ID%3D\'OnlyDetailVBNet\'%20%20DetailID%3D\'App%2FCarrierBlocking\'%20%20%2F%5D&quot;).Frame(&quot;Detail&quot;).Panel(1).Panel(&quot;messagingPopup&quot;).Button(&quot;btnOk&quot;)"/>
+			<Prp name="date" type="D" value="42387.5223327431"/>
+			<Prp name="id" type="I" value="86"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="unit id" type="I" value="4"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="line no" type="I" value="138"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="priority" type="I" value="300"/>
+		</Node>
+		<Node name="message 16">
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value="A click at point (25, 8) with no key pressed.&#xA;&#xA;Tested object:&#xA;Sys.Browser(&quot;iexplore&quot;).Page(&quot;https://hqqa80vm31/iXAdmin/lgx_Engine/lgx_Frame.aspx?&amp;LinkParams=%5BLinkParams%20lgx_ID%3D\'WideDetail\'%20%20FromDate%3D\'%40Data.DefaultDate.FromDate~\'%20ToDate%3D\'%40Data.DefaultDate.ToDate~\'%20lgx_DetailID%3D\'dtlConfig\'%20FirstTime%3D\'1\'%20ConfigType%3D\'2\'%20%20%2F%5D&quot;).Frame(&quot;Header&quot;).Table(0).Cell(0, 0).TextNode(&quot;mHomeLabel&quot;)"/>
+			<Prp name="date" type="D" value="42387.5166671875"/>
+			<Prp name="id" type="I" value="16"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="unit id" type="I" value="3"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="line no" type="I" value="117"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="priority" type="I" value="300"/>
+		</Node>
+		<Node name="message 51">
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value="A click at point (25, 8) with no key pressed.&#xA;&#xA;Tested object:&#xA;Sys.Browser(&quot;iexplore&quot;).Page(&quot;https://hqqa80vm31/iXAdmin/lgx_Engine/lgx_Frame.aspx?&amp;LinkParams=%5BLinkParams%20lgx_ID%3D\'Default\'%20%20lgxListID%3D\'\'%20lgx_ListID%3D\'lstProfile\'%20ActiveStatusID%3D\'1\'%20%20%2F%5D&quot;).Frame(&quot;Header&quot;).Table(0).Cell(0, 0).TextNode(&quot;mHomeLabel&quot;)"/>
+			<Prp name="date" type="D" value="42387.5205079398"/>
+			<Prp name="id" type="I" value="51"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="unit id" type="I" value="3"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="line no" type="I" value="117"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="priority" type="I" value="300"/>
+		</Node>
+		<Node name="message 104">
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value="A click at point (27, 12) with no key pressed.&#xA;&#xA;Tested object:&#xA;Sys.Browser(&quot;iexplore&quot;).Page(&quot;https://hqqa80vm31/iXConnect/lgx_Engine/lgx_Frame.aspx?&amp;LinkParams=%5BLinkParams%20lgx_ID%3D\'OnlyDetailVBNet\'%20%20DetailID%3D\'App%2FCarrierBlocking\'%20%20%2F%5D&quot;).Frame(&quot;Detail&quot;).Panel(1).Panel(&quot;NewWorkOrderWindow&quot;).Panel(&quot;newCbWorkOrderDiv&quot;).Form(0).Panel(5).Button(&quot;btnCancelNewWorkOrder&quot;)"/>
+			<Prp name="date" type="D" value="42387.5235911343"/>
+			<Prp name="id" type="I" value="104"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="unit id" type="I" value="4"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="line no" type="I" value="166"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="priority" type="I" value="300"/>
+		</Node>
+		<Node name="message 96">
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value="A click at point (33, 13) with no key pressed.&#xA;&#xA;Tested object:&#xA;Sys.Browser(&quot;iexplore&quot;).Page(&quot;https://hqqa80vm31/iXConnect/lgx_Engine/lgx_Frame.aspx?&amp;LinkParams=%5BLinkParams%20lgx_ID%3D\'OnlyDetailVBNet\'%20%20DetailID%3D\'App%2FCarrierBlocking\'%20%20%2F%5D&quot;).Frame(&quot;Detail&quot;).Panel(1).Panel(&quot;NewWorkOrderWindow&quot;).Panel(&quot;newCbWorkOrderDiv&quot;).Form(0).Panel(4).Panel(&quot;divMultiSelector_destinationMS&quot;).Panel(0).Panel(1).Button(&quot;btnMoveDest_destinationMS&quot;)"/>
+			<Prp name="date" type="D" value="42387.5229705556"/>
+			<Prp name="id" type="I" value="96"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="unit id" type="I" value="4"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="line no" type="I" value="129"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="priority" type="I" value="300"/>
+		</Node>
+		<Node name="message 6">
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value="A click at point (37, 12) with no key pressed.&#xA;&#xA;Tested object:&#xA;Sys.Browser(&quot;iexplore&quot;).Window(&quot;#32770&quot;, &quot;Windows Security&quot;, 1).UIAObject(&quot;Windows_Security&quot;).Window(&quot;CtrlNotifySink&quot;, &quot;&quot;, 3).Window(&quot;Button&quot;, &quot;OK&quot;, 1).MSAAObject(&quot;btn_OK&quot;)"/>
+			<Prp name="date" type="D" value="42387.5159053819"/>
+			<Prp name="id" type="I" value="6"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="line no" type="I" value="22"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="priority" type="I" value="300"/>
+		</Node>
+		<Node name="message 95">
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value="Click at the point (241, 87) with no key pressed.&#xA;&#xA;Aliases.browser.Page(&quot;https://hqqa80vm31/iXConnect/lgx_Engine/lgx_Frame.aspx?&amp;LinkParams=%5BLinkParams%20lgx_ID%3D\'OnlyDetailVBNet\'%20%20DetailID%3D\'App%2FCarrierBlocking\'%20%20%2F%5D&quot;).Frame(&quot;Detail&quot;).Panel(1).Panel(&quot;NewWorkOrderWindow&quot;).Panel(&quot;newCbWorkOrderDiv&quot;).Form(0).Panel(4).Panel(&quot;divMultiSelector_destinationMS&quot;).Panel(0).Panel(0).Select(&quot;from_destinationMS&quot;)"/>
+			<Prp name="date" type="D" value="42387.5229250694"/>
+			<Prp name="id" type="I" value="95"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="unit id" type="I" value="4"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="line no" type="I" value="127"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="The list box item 5 was clicked with the left mouse button."/>
+			<Prp name="priority" type="I" value="300"/>
+		</Node>
+		<Node name="message 120">
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value="&lt;html&gt;&lt;body&gt;&lt;p&gt;The test execution has stopped because --&lt;/p&gt;&lt;ul&gt;&lt;li&gt;An error message was posted to the log and&lt;/li&gt;&lt;li&gt;The &lt;a href=&quot;aqa-help://6090&quot;&gt;Stop on Error&lt;/a&gt; project property is enabled.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt; If you don't want the test to stop on errors, disable this property (&lt;b&gt;Project Editor &amp;rArr; Properties &amp;rArr; Playback&lt;/b&gt;), or change your test commands so that they do not post errors to the log automatically. For instance, if some window or process was not found, use the WaitWindow, WaitProcess or similar methods to obtain the desired object.&lt;/p&gt;&lt;a href=&quot;aqa-help://2207&quot;&gt;Read More&lt;/a&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"/>
+			<Prp name="date" type="D" value="42387.524350162"/>
+			<Prp name="id" type="I" value="120"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="-1"/>
+			<Prp name="picture" type="S" value="Picture2.png"/>
+			<Prp name="unit id" type="I" value="5"/>
+			<Prp name="type" type="I" value="3"/>
+			<Prp name="line no" type="I" value="107"/>
+			<Prp name="stack beginning" type="I" value="2"/>
+			<Prp name="pictype" type="I" value="2"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="stack end" type="I" value="2"/>
+			<Prp name="message" type="S" value="The test run has stopped because the &quot;Stop on Error&quot; setting is enabled."/>
+			<Prp name="priority" type="I" value="300"/>
+		</Node>
+		<Node name="message 0">
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="date" type="D" value="42387.5157963542"/>
+			<Prp name="id" type="I" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="line no" type="I" value="12"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="The process &quot;iexplore&quot; was closed."/>
+			<Prp name="priority" type="I" value="300"/>
+		</Node>
+		<Node name="message 109">
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value="A click at point (100, 13) with no key pressed.&#xA;&#xA;Tested object:&#xA;Sys.Browser(&quot;iexplore&quot;).Page(&quot;https://hqqa80vm31/iXConnect/lgx_Engine/lgx_Frame.aspx?&amp;LinkParams=%5BLinkParams%20lgx_ID%3D\'OnlyDetailVBNet\'%20%20DetailID%3D\'App%2FCarrierBlocking\'%20%20%2F%5D&quot;).Frame(&quot;Detail&quot;).Panel(1).Panel(&quot;NewWorkOrderWindow&quot;).Panel(&quot;newCbWorkOrderDiv&quot;).Form(0).Panel(1).Panel(1).Panel(0).Panel(0).TextNode(2)"/>
+			<Prp name="date" type="D" value="42387.5237733912"/>
+			<Prp name="id" type="I" value="109"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="unit id" type="I" value="4"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="line no" type="I" value="184"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="priority" type="I" value="300"/>
+		</Node>
+		<Node name="message 68">
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value="A click at point (65, 6) with no key pressed.&#xA;&#xA;Tested object:&#xA;Sys.Browser(&quot;iexplore&quot;).PagePopup(0).Panel(0).Panel(14).TextNode(0)"/>
+			<Prp name="date" type="D" value="42387.5214281944"/>
+			<Prp name="id" type="I" value="68"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="unit id" type="I" value="4"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="line no" type="I" value="16"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="priority" type="I" value="300"/>
+		</Node>
+		<Node name="item 1">
+			<Prp name="line no" type="I" value="15"/>
+			<Prp name="stacktext" type="S" value="CarrierDesitnationBlockingTest"/>
+			<Prp name="unit id" type="I" value="7"/>
+		</Node>
+		<Node name="message 98">
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value="A click at point (16, 12) with no key pressed.&#xA;&#xA;Tested object:&#xA;Sys.Browser(&quot;iexplore&quot;).Page(&quot;https://hqqa80vm31/iXConnect/lgx_Engine/lgx_Frame.aspx?&amp;LinkParams=%5BLinkParams%20lgx_ID%3D\'OnlyDetailVBNet\'%20%20DetailID%3D\'App%2FCarrierBlocking\'%20%20%2F%5D&quot;).Frame(&quot;Detail&quot;).Panel(1).Panel(&quot;messagingPopup&quot;).Button(&quot;btnOk&quot;)"/>
+			<Prp name="date" type="D" value="42387.5230977894"/>
+			<Prp name="id" type="I" value="98"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="unit id" type="I" value="4"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="line no" type="I" value="138"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="priority" type="I" value="300"/>
+		</Node>
+		<Node name="message 73">
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="date" type="D" value="42387.5215684722"/>
+			<Prp name="id" type="I" value="73"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="unit id" type="I" value="5"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="line no" type="I" value="81"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="The property value &quot;Created Date&quot; equals the baseline value &quot;Created Date&quot;."/>
+			<Prp name="priority" type="I" value="300"/>
+		</Node>
+		<Node name="message 39">
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value="A click at point (27, 8) with no key pressed.&#xA;&#xA;Tested object:&#xA;Sys.Browser(&quot;iexplore&quot;).Page(&quot;https://hqqa80vm31/iXAdmin/lgx_Engine/lgx_Frame.aspx?lgx_WindowID=Frame&amp;Linkparams=%5bLinkParams+lgx_ID%3d\'Default\'+%2f%5d&quot;).Frame(&quot;Header&quot;).Table(0).Cell(0, 0).TextNode(&quot;mAdminLabel&quot;)"/>
+			<Prp name="date" type="D" value="42387.5183376736"/>
+			<Prp name="id" type="I" value="39"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="unit id" type="I" value="3"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="line no" type="I" value="17"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="priority" type="I" value="300"/>
+		</Node>
+		<Node name="message 116">
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value="'Pending' was sent as a keyboard input to the following window or control.&#xA;&#xA;Tested object:&#xA;Sys.Browser(&quot;iexplore&quot;).Page(&quot;https://hqqa80vm31/iXConnect/lgx_Engine/lgx_Frame.aspx?&amp;LinkParams=%5BLinkParams%20lgx_ID%3D\'OnlyDetailVBNet\'%20%20DetailID%3D\'App%2FCarrierBlocking\'%20%20%2F%5D&quot;).Frame(&quot;Detail&quot;).Panel(&quot;mainBody&quot;).Section(0).Panel(&quot;page_content&quot;).Panel(0).Panel(&quot;CarrierBlockingTabStrip&quot;).Panel(&quot;CarrierBlockingTabStrip_1&quot;).Panel(&quot;CarrierBlockingWorkOrdersDiv&quot;).Form(&quot;dvbasicCarrierBlockingSearchForm&quot;).Panel(0).Panel(1).Panel(0).Panel(0).Panel(0).Panel(0).Textbox(0)"/>
+			<Prp name="date" type="D" value="42387.5241519213"/>
+			<Prp name="id" type="I" value="116"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="unit id" type="I" value="4"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="line no" type="I" value="209"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="Keyboard input."/>
+			<Prp name="priority" type="I" value="300"/>
+		</Node>
+		<Node name="message 45">
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value="Aliases.browser.Page(&quot;https://hqqa80vm31/iXAdmin/lgx_Engine/lgx_Frame.aspx?&amp;LinkParams=%5BLinkParams%20lgx_ID%3D\'Default\'%20%20lgxListID%3D\'\'%20lgx_ListID%3D\'lstProfile\'%20ActiveStatusID%3D\'1\'%20%20%2F%5D&quot;).Frame(&quot;Detail&quot;).Panel(0).Panel(&quot;lgx_FilterDiv&quot;).Form(&quot;frmFilter&quot;).Panel(&quot;rStatus&quot;).Select(&quot;rStatus_ApplicationID&quot;)"/>
+			<Prp name="date" type="D" value="42387.5190850231"/>
+			<Prp name="id" type="I" value="45"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="unit id" type="I" value="3"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="line no" type="I" value="54"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="The combo box item 'iXConnect' was selected."/>
+			<Prp name="priority" type="I" value="300"/>
+		</Node>
+		<Node name="message 5">
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value="'Enosis123' was sent as a keyboard input to the following window or control.&#xA;&#xA;Tested object:&#xA;Sys.Browser(&quot;iexplore&quot;).Window(&quot;#32770&quot;, &quot;Windows Security&quot;, 1).UIAObject(&quot;Windows_Security&quot;).Window(&quot;CtrlNotifySink&quot;, &quot;&quot;, 7).Window(&quot;Edit&quot;, &quot;&quot;, 1).MSAAObject(&quot;editable_text_Password&quot;)"/>
+			<Prp name="date" type="D" value="42387.5159026042"/>
+			<Prp name="id" type="I" value="5"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="line no" type="I" value="20"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="Keyboard input."/>
+			<Prp name="priority" type="I" value="300"/>
+		</Node>
+		<Node name="message 75">
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="date" type="D" value="42387.521568588"/>
+			<Prp name="id" type="I" value="75"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="unit id" type="I" value="5"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="line no" type="I" value="83"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="The property value &quot;Modified By&quot; equals the baseline value &quot;Modified By&quot;."/>
+			<Prp name="priority" type="I" value="300"/>
+		</Node>
+		<Node name="message 82">
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value="A click at point (97, 11) with no key pressed.&#xA;&#xA;Tested object:&#xA;Sys.Browser(&quot;iexplore&quot;).Page(&quot;https://hqqa80vm31/iXConnect/lgx_Engine/lgx_Frame.aspx?&amp;LinkParams=%5BLinkParams%20lgx_ID%3D\'OnlyDetailVBNet\'%20%20DetailID%3D\'App%2FCarrierBlocking\'%20%20%2F%5D&quot;).Frame(&quot;Detail&quot;).Panel(3).Panel(&quot;newWorkOrderWorkOrderType_list&quot;).TextNode(&quot;newWorkOrderWorkOrderType_listbox&quot;).TextNode(0)"/>
+			<Prp name="date" type="D" value="42387.5218485301"/>
+			<Prp name="id" type="I" value="82"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="unit id" type="I" value="4"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="line no" type="I" value="123"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="priority" type="I" value="300"/>
+		</Node>
+		<Node name="message 10">
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value="Aliases.browser.Page(&quot;https://hqqa80vm31/iXAdmin/lgx_Engine/lgx_Frame.aspx?&amp;LinkParams=%5BLinkParams%20lgx_ID%3D\'WideDetail\'%20%20FromDate%3D\'%40Data.DefaultDate.FromDate~\'%20ToDate%3D\'%40Data.DefaultDate.ToDate~\'%20lgx_DetailID%3D\'dtlConfig\'%20FirstTime%3D\'1\'%20ConfigType%3D\'2\'%20%20%2F%5D&quot;).Frame(&quot;Detail&quot;).Panel(0).Panel(&quot;lgx_FilterDiv&quot;).Form(&quot;frmFilter&quot;).Panel(&quot;rScope&quot;).Select(&quot;rScope_Scope&quot;)"/>
+			<Prp name="date" type="D" value="42387.516176331"/>
+			<Prp name="id" type="I" value="10"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="unit id" type="I" value="3"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="line no" type="I" value="86"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="The combo box item 'iXConnect' was selected."/>
+			<Prp name="priority" type="I" value="300"/>
+		</Node>
+		<Node name="message 42">
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value="'[Enter]' was sent as a keyboard input to the following window or control.&#xA;&#xA;Tested object:&#xA;Sys.Browser(&quot;iexplore&quot;).Page(&quot;https://hqqa80vm31/iXAdmin/lgx_Engine/lgx_Frame.aspx?&amp;LinkParams=%5BLinkParams%20lgx_ID%3D\'Default\'%20%20lgxListID%3D\'\'%20lgx_ListID%3D\'lstProfile\'%20ActiveStatusID%3D\'1\'%20%20%2F%5D&quot;).Frame(&quot;List&quot;).Panel(0).Panel(&quot;lgx_FilterDiv&quot;).Form(&quot;frmFilter&quot;).Panel(&quot;rStatus&quot;).Select(&quot;rStatus_ActiveStatusID&quot;)"/>
+			<Prp name="date" type="D" value="42387.5184038773"/>
+			<Prp name="id" type="I" value="42"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="unit id" type="I" value="3"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="line no" type="I" value="28"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="Keyboard input."/>
+			<Prp name="priority" type="I" value="300"/>
+		</Node>
+		<Node name="message 44">
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value="A click at point (35, 9) with no key pressed.&#xA;&#xA;Tested object:&#xA;Sys.Browser(&quot;iexplore&quot;).Page(&quot;https://hqqa80vm31/iXAdmin/lgx_Engine/lgx_Frame.aspx?&amp;LinkParams=%5BLinkParams%20lgx_ID%3D\'Default\'%20%20lgxListID%3D\'\'%20lgx_ListID%3D\'lstProfile\'%20ActiveStatusID%3D\'1\'%20%20%2F%5D&quot;).Frame(&quot;Detail&quot;).Panel(0).Panel(&quot;rTab&quot;).TextNode(&quot;rTab_tabRole&quot;)"/>
+			<Prp name="date" type="D" value="42387.5189059722"/>
+			<Prp name="id" type="I" value="44"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="unit id" type="I" value="3"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="line no" type="I" value="51"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="priority" type="I" value="300"/>
+		</Node>
+		<Node name="message 11">
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value="'[Enter]' was sent as a keyboard input to the following window or control.&#xA;&#xA;Tested object:&#xA;Sys.Browser(&quot;iexplore&quot;).Page(&quot;https://hqqa80vm31/iXAdmin/lgx_Engine/lgx_Frame.aspx?&amp;LinkParams=%5BLinkParams%20lgx_ID%3D\'WideDetail\'%20%20FromDate%3D\'%40Data.DefaultDate.FromDate~\'%20ToDate%3D\'%40Data.DefaultDate.ToDate~\'%20lgx_DetailID%3D\'dtlConfig\'%20FirstTime%3D\'1\'%20ConfigType%3D\'2\'%20%20%2F%5D&quot;).Frame(&quot;Detail&quot;).Panel(0).Panel(&quot;lgx_FilterDiv&quot;).Form(&quot;frmFilter&quot;).Panel(&quot;rScope&quot;).Select(&quot;rScope_Scope&quot;)"/>
+			<Prp name="date" type="D" value="42387.5161770255"/>
+			<Prp name="id" type="I" value="11"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="unit id" type="I" value="3"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="line no" type="I" value="87"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="Keyboard input."/>
+			<Prp name="priority" type="I" value="300"/>
+		</Node>
+		<Node name="message 34">
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value="A click at point (45, 8) with no key pressed.&#xA;&#xA;Tested object:&#xA;Sys.Browser(&quot;iexplore&quot;).Page(&quot;https://hqqa80vm31/iXConnect/lgx_Engine/lgx_Frame.aspx?lgx_WindowID=Frame&amp;Linkparams=%5bLinkParams+lgx_ID%3d\'Default\'+%2f%5d&quot;).Frame(&quot;Header&quot;).Table(0).Cell(0, 0).TextNode(&quot;C2_mDestination&quot;)"/>
+			<Prp name="date" type="D" value="42387.5179912616"/>
+			<Prp name="id" type="I" value="34"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="unit id" type="I" value="4"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="line no" type="I" value="15"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="priority" type="I" value="300"/>
+		</Node>
+		<Node name="message 106">
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value="A click at point (67, 12) with no key pressed.&#xA;&#xA;Tested object:&#xA;Sys.Browser(&quot;iexplore&quot;).Page(&quot;https://hqqa80vm31/iXConnect/lgx_Engine/lgx_Frame.aspx?&amp;LinkParams=%5BLinkParams%20lgx_ID%3D\'OnlyDetailVBNet\'%20%20DetailID%3D\'App%2FCarrierBlocking\'%20%20%2F%5D&quot;).Frame(&quot;Detail&quot;).Panel(&quot;mainBody&quot;).Section(0).Panel(&quot;page_content&quot;).Panel(0).Panel(&quot;CarrierBlockingTabStrip&quot;).Panel(&quot;CarrierBlockingTabStrip_1&quot;).Panel(&quot;CarrierBlockingWorkOrdersDiv&quot;).Panel(&quot;carrierBlockingDiv&quot;).Panel(&quot;CbGridDiv&quot;).Panel(&quot;CarrierBlockingWorkOrdersGrd&quot;).Panel(0).Panel(&quot;carrierDestBlockToolbar&quot;).Panel(0).Link(&quot;CreateWorkOrder&quot;)"/>
+			<Prp name="date" type="D" value="42387.5236549653"/>
+			<Prp name="id" type="I" value="106"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="unit id" type="I" value="4"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="line no" type="I" value="177"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="priority" type="I" value="300"/>
+		</Node>
+		<Node name="message 93">
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value="A click at point (100, 13) with no key pressed.&#xA;&#xA;Tested object:&#xA;Sys.Browser(&quot;iexplore&quot;).Page(&quot;https://hqqa80vm31/iXConnect/lgx_Engine/lgx_Frame.aspx?&amp;LinkParams=%5BLinkParams%20lgx_ID%3D\'OnlyDetailVBNet\'%20%20DetailID%3D\'App%2FCarrierBlocking\'%20%20%2F%5D&quot;).Frame(&quot;Detail&quot;).Panel(1).Panel(&quot;NewWorkOrderWindow&quot;).Panel(&quot;newCbWorkOrderDiv&quot;).Form(0).Panel(1).Panel(1).Panel(0).Panel(0).TextNode(2)"/>
+			<Prp name="date" type="D" value="42387.5226285417"/>
+			<Prp name="id" type="I" value="93"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="unit id" type="I" value="4"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="line no" type="I" value="119"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="priority" type="I" value="300"/>
+		</Node>
+		<Node name="message 78">
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value="A click at point (67, 12) with no key pressed.&#xA;&#xA;Tested object:&#xA;Sys.Browser(&quot;iexplore&quot;).Page(&quot;https://hqqa80vm31/iXConnect/lgx_Engine/lgx_Frame.aspx?&amp;LinkParams=%5BLinkParams%20lgx_ID%3D\'OnlyDetailVBNet\'%20%20DetailID%3D\'App%2FCarrierBlocking\'%20%20%2F%5D&quot;).Frame(&quot;Detail&quot;).Panel(&quot;mainBody&quot;).Section(0).Panel(&quot;page_content&quot;).Panel(0).Panel(&quot;CarrierBlockingTabStrip&quot;).Panel(&quot;CarrierBlockingTabStrip_1&quot;).Panel(&quot;CarrierBlockingWorkOrdersDiv&quot;).Panel(&quot;carrierBlockingDiv&quot;).Panel(&quot;CbGridDiv&quot;).Panel(&quot;CarrierBlockingWorkOrdersGrd&quot;).Panel(0).Panel(&quot;carrierDestBlockToolbar&quot;).Panel(0).Link(&quot;CreateWorkOrder&quot;)"/>
+			<Prp name="date" type="D" value="42387.5216910417"/>
+			<Prp name="id" type="I" value="78"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="unit id" type="I" value="4"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="line no" type="I" value="112"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="priority" type="I" value="300"/>
+		</Node>
+		<Node name="message 18">
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value="A click at point (45, 8) with no key pressed.&#xA;&#xA;Tested object:&#xA;Sys.Browser(&quot;iexplore&quot;).Page(&quot;https://hqqa80vm31/iXConnect/lgx_Engine/lgx_Frame.aspx?lgx_WindowID=Frame&amp;Linkparams=%5bLinkParams+lgx_ID%3d\'Default\'+%2f%5d&quot;).Frame(&quot;Header&quot;).Table(0).Cell(0, 0).TextNode(&quot;C2_mDestination&quot;)"/>
+			<Prp name="date" type="D" value="42387.5168622106"/>
+			<Prp name="id" type="I" value="18"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="unit id" type="I" value="4"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="line no" type="I" value="15"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="priority" type="I" value="300"/>
+		</Node>
+		<Node name="message 64">
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="date" type="D" value="42387.5214049306"/>
+			<Prp name="id" type="I" value="64"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="unit id" type="I" value="5"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="line no" type="I" value="69"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="The property value &quot;true&quot; equals the baseline value &quot;true&quot;."/>
+			<Prp name="priority" type="I" value="300"/>
+		</Node>
+		<Node name="message 81">
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value="A click at point (100, 13) with no key pressed.&#xA;&#xA;Tested object:&#xA;Sys.Browser(&quot;iexplore&quot;).Page(&quot;https://hqqa80vm31/iXConnect/lgx_Engine/lgx_Frame.aspx?&amp;LinkParams=%5BLinkParams%20lgx_ID%3D\'OnlyDetailVBNet\'%20%20DetailID%3D\'App%2FCarrierBlocking\'%20%20%2F%5D&quot;).Frame(&quot;Detail&quot;).Panel(1).Panel(&quot;NewWorkOrderWindow&quot;).Panel(&quot;newCbWorkOrderDiv&quot;).Form(0).Panel(1).Panel(1).Panel(0).Panel(0).TextNode(2)"/>
+			<Prp name="date" type="D" value="42387.5218130556"/>
+			<Prp name="id" type="I" value="81"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="unit id" type="I" value="4"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="line no" type="I" value="119"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="priority" type="I" value="300"/>
+		</Node>
+		<Node name="message 60">
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="date" type="D" value="42387.5214048148"/>
+			<Prp name="id" type="I" value="60"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="unit id" type="I" value="5"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="line no" type="I" value="65"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="The property value &quot;true&quot; equals the baseline value &quot;true&quot;."/>
+			<Prp name="priority" type="I" value="300"/>
+		</Node>
+		<Node name="message 56">
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="date" type="D" value="42387.5210024421"/>
+			<Prp name="id" type="I" value="56"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="unit id" type="I" value="5"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="line no" type="I" value="58"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="The property value &quot;Blocked Destinations&quot; equals the baseline value &quot;Blocked Destinations&quot;."/>
+			<Prp name="priority" type="I" value="300"/>
+		</Node>
+		<Node name="message 59">
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="date" type="D" value="42387.5214048148"/>
+			<Prp name="id" type="I" value="59"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="unit id" type="I" value="5"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="line no" type="I" value="64"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="The property value &quot;true&quot; equals the baseline value &quot;true&quot;."/>
+			<Prp name="priority" type="I" value="300"/>
+		</Node>
+		<Node name="message 113">
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value="A click at point (21, 10) with no key pressed.&#xA;&#xA;Tested object:&#xA;Sys.Browser(&quot;iexplore&quot;).Page(&quot;https://hqqa80vm31/iXConnect/lgx_Engine/lgx_Frame.aspx?&amp;LinkParams=%5BLinkParams%20lgx_ID%3D\'OnlyDetailVBNet\'%20%20DetailID%3D\'App%2FCarrierBlocking\'%20%20%2F%5D&quot;).Frame(&quot;Detail&quot;).Panel(&quot;mainBody&quot;).Section(0).Panel(&quot;page_content&quot;).Panel(0).Panel(&quot;CarrierBlockingTabStrip&quot;).Panel(&quot;CarrierBlockingTabStrip_1&quot;).Panel(&quot;CarrierBlockingWorkOrdersDiv&quot;).Form(&quot;dvbasicCarrierBlockingSearchForm&quot;).Panel(0).Panel(0).Panel(2).Panel(0).Panel(0).Panel(0).Textbox(0)"/>
+			<Prp name="date" type="D" value="42387.5240537153"/>
+			<Prp name="id" type="I" value="113"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="unit id" type="I" value="4"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="line no" type="I" value="203"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="priority" type="I" value="300"/>
+		</Node>
+		<Node name="message 25">
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value="A click at point (50, 6) with no key pressed.&#xA;&#xA;Tested object:&#xA;Sys.Browser(&quot;iexplore&quot;).PagePopup(0).Panel(0).Panel(0).TextNode(0)"/>
+			<Prp name="date" type="D" value="42387.5173382523"/>
+			<Prp name="id" type="I" value="25"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="unit id" type="I" value="3"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="line no" type="I" value="83"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="priority" type="I" value="300"/>
+		</Node>
+		<Node name="message 49">
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="date" type="D" value="42387.5204943982"/>
+			<Prp name="id" type="I" value="49"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="unit id" type="I" value="5"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="line no" type="I" value="47"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="The property value &quot;1178&quot; equals the baseline value &quot;1178&quot;."/>
+			<Prp name="priority" type="I" value="300"/>
+		</Node>
+		<Node name="message 35">
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value="A click at point (65, 6) with no key pressed.&#xA;&#xA;Tested object:&#xA;Sys.Browser(&quot;iexplore&quot;).PagePopup(0).Panel(0).Panel(14).TextNode(0)"/>
+			<Prp name="date" type="D" value="42387.5180000579"/>
+			<Prp name="id" type="I" value="35"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="unit id" type="I" value="4"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="line no" type="I" value="16"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="priority" type="I" value="300"/>
+		</Node>
+		<Node name="message 8">
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value="A click at point (26, 8) with no key pressed.&#xA;&#xA;Tested object:&#xA;Sys.Browser(&quot;iexplore&quot;).Page(&quot;https://hqqa80vm31/iXAdmin/lgx_Engine/lgx_Frame.aspx?lgx_WindowID=Frame&amp;Linkparams=%5bLinkParams+lgx_ID%3d\'Default\'+%2f%5d&quot;).Frame(&quot;Header&quot;).Table(0).Cell(0, 0).TextNode(&quot;mConfigLabel&quot;)"/>
+			<Prp name="date" type="D" value="42387.5160973958"/>
+			<Prp name="id" type="I" value="8"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="unit id" type="I" value="3"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="line no" type="I" value="82"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="priority" type="I" value="300"/>
+		</Node>
+		<Node name="message 77">
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value="A click at point (65, 6) with no key pressed.&#xA;&#xA;Tested object:&#xA;Sys.Browser(&quot;iexplore&quot;).PagePopup(0).Panel(0).Panel(14).TextNode(0)"/>
+			<Prp name="date" type="D" value="42387.5215918519"/>
+			<Prp name="id" type="I" value="77"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="unit id" type="I" value="4"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="line no" type="I" value="16"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="priority" type="I" value="300"/>
+		</Node>
+		<Node name="message 54">
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value="A click at point (65, 6) with no key pressed.&#xA;&#xA;Tested object:&#xA;Sys.Browser(&quot;iexplore&quot;).PagePopup(0).Panel(0).Panel(14).TextNode(0)"/>
+			<Prp name="date" type="D" value="42387.5207079398"/>
+			<Prp name="id" type="I" value="54"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="unit id" type="I" value="4"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="line no" type="I" value="16"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="priority" type="I" value="300"/>
+		</Node>
+		<Node name="message 33">
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value="A click at point (61, 10) with no key pressed.&#xA;&#xA;Tested object:&#xA;Sys.Browser(&quot;iexplore&quot;).Page(&quot;https://hqqa80vm31/iXHome/lgx_Engine/lgx_Frame.aspx?lgx_WindowID=Frame&amp;Linkparams=%5bLinkParams+lgx_ID%3d\'Default\'+%2f%5d&quot;).Frame(&quot;Modules&quot;).Panel(&quot;rConnect&quot;).Image(&quot;rConnect_iXConnect_iXConnect&quot;)"/>
+			<Prp name="date" type="D" value="42387.5178757523"/>
+			<Prp name="id" type="I" value="33"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="unit id" type="I" value="2"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="line no" type="I" value="25"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="priority" type="I" value="300"/>
+		</Node>
+		<Node name="message 23">
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value="A click at point (54, 10) with no key pressed.&#xA;&#xA;Tested object:&#xA;Sys.Browser(&quot;iexplore&quot;).Page(&quot;https://hqqa80vm31/iXHome/lgx_Engine/lgx_Frame.aspx?lgx_WindowID=Frame&amp;Linkparams=%5bLinkParams+lgx_ID%3d\'Default\'+%2f%5d&quot;).Frame(&quot;Modules&quot;).Panel(&quot;rAdmin&quot;).Image(&quot;rAdmin_iXAdmin&quot;)"/>
+			<Prp name="date" type="D" value="42387.5170661458"/>
+			<Prp name="id" type="I" value="23"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="unit id" type="I" value="2"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="line no" type="I" value="21"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="priority" type="I" value="300"/>
+		</Node>
+		<Node name="message 47">
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="date" type="D" value="42387.5204942824"/>
+			<Prp name="id" type="I" value="47"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="unit id" type="I" value="5"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="line no" type="I" value="45"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="The property value &quot;1177&quot; equals the baseline value &quot;1177&quot;."/>
+			<Prp name="priority" type="I" value="300"/>
+		</Node>
+		<Node name="message 111">
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value="A click at point (27, 12) with no key pressed.&#xA;&#xA;Tested object:&#xA;Sys.Browser(&quot;iexplore&quot;).Page(&quot;https://hqqa80vm31/iXConnect/lgx_Engine/lgx_Frame.aspx?&amp;LinkParams=%5BLinkParams%20lgx_ID%3D\'OnlyDetailVBNet\'%20%20DetailID%3D\'App%2FCarrierBlocking\'%20%20%2F%5D&quot;).Frame(&quot;Detail&quot;).Panel(1).Panel(&quot;NewWorkOrderWindow&quot;).Panel(&quot;newCbWorkOrderDiv&quot;).Form(0).Panel(5).Button(&quot;btnCancelNewWorkOrder&quot;)"/>
+			<Prp name="date" type="D" value="42387.5240077083"/>
+			<Prp name="id" type="I" value="111"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="unit id" type="I" value="4"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="line no" type="I" value="192"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="priority" type="I" value="300"/>
+		</Node>
+		<Node name="message 66">
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="date" type="D" value="42387.5214049306"/>
+			<Prp name="id" type="I" value="66"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="unit id" type="I" value="5"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="line no" type="I" value="71"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="The property value &quot;true&quot; equals the baseline value &quot;true&quot;."/>
+			<Prp name="priority" type="I" value="300"/>
+		</Node>
+		<Node name="message 30">
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value="A click at point (43, 13) with no key pressed.&#xA;&#xA;Tested object:&#xA;Sys.Browser(&quot;iexplore&quot;).Page(&quot;https://hqqa80vm31/iXAdmin/lgx_Engine/lgx_Frame.aspx?&amp;LinkParams=%5BLinkParams%20lgx_ID%3D\'WideDetail\'%20%20FromDate%3D\'%40Data.DefaultDate.FromDate~\'%20ToDate%3D\'%40Data.DefaultDate.ToDate~\'%20lgx_DetailID%3D\'dtlConfig\'%20FirstTime%3D\'1\'%20ConfigType%3D\'2\'%20%20%2F%5D&quot;).Frame(&quot;Detail&quot;).Table(&quot;lgx_Buttons&quot;).Cell(0, 0).Image(&quot;Save&quot;)"/>
+			<Prp name="date" type="D" value="42387.5177506366"/>
+			<Prp name="id" type="I" value="30"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="unit id" type="I" value="3"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="line no" type="I" value="106"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="priority" type="I" value="300"/>
+		</Node>
+		<Node name="message 28">
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value="Aliases.browser.Page(&quot;https://hqqa80vm31/iXAdmin/lgx_Engine/lgx_Frame.aspx?&amp;LinkParams=%5BLinkParams%20lgx_ID%3D\'WideDetail\'%20%20FromDate%3D\'%40Data.DefaultDate.FromDate~\'%20ToDate%3D\'%40Data.DefaultDate.ToDate~\'%20lgx_DetailID%3D\'dtlConfig\'%20FirstTime%3D\'1\'%20ConfigType%3D\'2\'%20%20%2F%5D&quot;).Frame(&quot;Detail&quot;).Panel(0).Table(&quot;MRFConfig&quot;).Cell(15, 4).Textbox(&quot;MRFConfig_cConfigParamValue8_ConfigParamValue&quot;)"/>
+			<Prp name="date" type="D" value="42387.5175800347"/>
+			<Prp name="id" type="I" value="28"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="unit id" type="I" value="3"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="line no" type="I" value="103"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="The text '' was entered in the text editor."/>
+			<Prp name="priority" type="I" value="300"/>
+		</Node>
+		<Node name="message 21">
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="date" type="D" value="42387.5168894097"/>
+			<Prp name="id" type="I" value="21"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="unit id" type="I" value="5"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="line no" type="I" value="21"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="The property value &quot;Carrier Destination Blocking is disabled&quot; equals the baseline value &quot;Carrier Destination Blocking is disabled&quot;."/>
+			<Prp name="priority" type="I" value="300"/>
+		</Node>
+		<Node name="message 91">
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value="'Armenia-PTT' was sent as a keyboard input to the following window or control.&#xA;&#xA;Tested object:&#xA;Sys.Browser(&quot;iexplore&quot;).Page(&quot;https://hqqa80vm31/iXConnect/lgx_Engine/lgx_Frame.aspx?&amp;LinkParams=%5BLinkParams%20lgx_ID%3D\'OnlyDetailVBNet\'%20%20DetailID%3D\'App%2FCarrierBlocking\'%20%20%2F%5D&quot;).Frame(&quot;Detail&quot;).Panel(1).Panel(&quot;NewWorkOrderWindow&quot;).Panel(&quot;newCbWorkOrderDiv&quot;).Form(0).Panel(1).Panel(0).Panel(0).Panel(0).Textbox(&quot;newWorkOrderCarriers&quot;)"/>
+			<Prp name="date" type="D" value="42387.5225576273"/>
+			<Prp name="id" type="I" value="91"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="unit id" type="I" value="4"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="line no" type="I" value="114"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="Keyboard input."/>
+			<Prp name="priority" type="I" value="300"/>
+		</Node>
+		<Node name="message 62">
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="date" type="D" value="42387.5214048148"/>
+			<Prp name="id" type="I" value="62"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="unit id" type="I" value="5"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="line no" type="I" value="67"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="The property value &quot;true&quot; equals the baseline value &quot;true&quot;."/>
+			<Prp name="priority" type="I" value="300"/>
+		</Node>
+		<Node name="message 110">
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value="A click at point (97, 12) with no key pressed.&#xA;&#xA;Tested object:&#xA;Sys.Browser(&quot;iexplore&quot;).Page(&quot;https://hqqa80vm31/iXConnect/lgx_Engine/lgx_Frame.aspx?&amp;LinkParams=%5BLinkParams%20lgx_ID%3D\'OnlyDetailVBNet\'%20%20DetailID%3D\'App%2FCarrierBlocking\'%20%20%2F%5D&quot;).Frame(&quot;Detail&quot;).Panel(3).Panel(&quot;newWorkOrderWorkOrderType_list&quot;).TextNode(&quot;newWorkOrderWorkOrderType_listbox&quot;).TextNode(1)"/>
+			<Prp name="date" type="D" value="42387.5238098264"/>
+			<Prp name="id" type="I" value="110"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="unit id" type="I" value="4"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="line no" type="I" value="188"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="priority" type="I" value="300"/>
+		</Node>
+		<Prp name="status" type="I" value="2"/>
+		<Prp name="perfcounterslength" type="I" value="1"/>
+	</Node>
+</Nodes>

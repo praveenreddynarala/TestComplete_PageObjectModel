@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="summary">
+			<Node name="warning">
+				<Prp name="total (sum)" type="I" value="0"/>
+			</Node>
+			<Node name="total">
+				<Prp name="total (sum)" type="I" value="5"/>
+			</Node>
+			<Node name="failed">
+				<Prp name="total (sum)" type="I" value="1"/>
+			</Node>
+			<Node name="passed">
+				<Prp name="total (sum)" type="I" value="4"/>
+			</Node>
+			<Node name="executed">
+				<Prp name="total (sum)" type="I" value="5"/>
+			</Node>
+			<Prp name="host" type="S" value="TESTCPC"/>
+			<Prp name="stop date" type="D" value="42387.5243588426"/>
+			<Prp name="user" type="S" value="Enosis"/>
+			<Prp name="start date" type="D" value="42387.5042665625"/>
+			<Prp name="test" type="S" value="iXToolsAutomation"/>
+			<Prp name="log status" type="I" value="0"/>
+		</Node>
+		<Node name="log data">
+			<Node name="row4">
+				<Node name="messages"/>
+				<Prp name="status" type="I" value="2"/>
+				<Prp name="details" type="S" value="{E0F58967-6322-4921-B326-5F763B405A69}"/>
+				<Prp name="testdata item" type="B" value="-1"/>
+				<Prp name="end time" type="D" value="42387.5243588426"/>
+				<Prp name="ownerid" type="I" value="-1"/>
+				<Prp name="name" type="S" value="CarrierDestinationBlocking"/>
+				<Prp name="index" type="I" value="4"/>
+				<Prp name="start time" type="D" value="42387.5157860532"/>
+			</Node>
+			<Node name="row2">
+				<Node name="messages"/>
+				<Prp name="status" type="I" value="0"/>
+				<Prp name="details" type="S" value="{E7469591-BEF0-4191-8516-3094CB7FB184}"/>
+				<Prp name="testdata item" type="B" value="-1"/>
+				<Prp name="end time" type="D" value="42387.5123770833"/>
+				<Prp name="ownerid" type="I" value="-1"/>
+				<Prp name="name" type="S" value="Export CSNP"/>
+				<Prp name="index" type="I" value="2"/>
+				<Prp name="start time" type="D" value="42387.5114425926"/>
+			</Node>
+			<Node name="row1">
+				<Node name="messages"/>
+				<Prp name="status" type="I" value="0"/>
+				<Prp name="details" type="S" value="{3D5F71A8-2CB9-425C-ACF2-9EBC5D736396}"/>
+				<Prp name="testdata item" type="B" value="-1"/>
+				<Prp name="end time" type="D" value="42387.5114425926"/>
+				<Prp name="ownerid" type="I" value="-1"/>
+				<Prp name="name" type="S" value="Import CSNP"/>
+				<Prp name="index" type="I" value="1"/>
+				<Prp name="start time" type="D" value="42387.5098070255"/>
+			</Node>
+			<Node name="row0">
+				<Node name="messages"/>
+				<Prp name="status" type="I" value="0"/>
+				<Prp name="details" type="S" value="{87DEF155-21D8-49D8-9611-D20AF40EFE78}"/>
+				<Prp name="testdata item" type="B" value="-1"/>
+				<Prp name="end time" type="D" value="42387.5098070255"/>
+				<Prp name="ownerid" type="I" value="-1"/>
+				<Prp name="name" type="S" value="Create CSNP"/>
+				<Prp name="index" type="I" value="0"/>
+				<Prp name="start time" type="D" value="42387.5042665625"/>
+			</Node>
+			<Node name="row3">
+				<Node name="messages"/>
+				<Prp name="status" type="I" value="0"/>
+				<Prp name="details" type="S" value="{2E860A36-7615-4099-9E93-B8EC34377454}"/>
+				<Prp name="testdata item" type="B" value="-1"/>
+				<Prp name="end time" type="D" value="42387.5157859375"/>
+				<Prp name="ownerid" type="I" value="-1"/>
+				<Prp name="name" type="S" value="Moving Adjustment Charges"/>
+				<Prp name="index" type="I" value="3"/>
+				<Prp name="start time" type="D" value="42387.5123770833"/>
+			</Node>
+		</Node>
+		<Prp name="hassummary" type="B" value="-1"/>
+	</Node>
+</Nodes>
